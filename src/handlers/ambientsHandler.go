@@ -7,6 +7,8 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path/filepath"
+	"strings"
 )
 
 /*
@@ -44,17 +46,71 @@ type Assignment struct {
 }*/
 
 func AmbientsHandler(w http.ResponseWriter, r *http.Request) {
-    //var ambientsList []types.Ambient;
-
-    //in the mean time, we will get the ambients' data
-    //from the assignments' data and some random stuff
     var assignments []types.Assignment;
+    var ambientsList []types.Ambient;
+
     assignmentsFile, openErr := os.Open("/home/bauer/Projects/smartcampus-ambients-end/dump/assignments.json");
     if (openErr != nil) { log.Fatal(openErr); }
     decodeErr := json.NewDecoder(assignmentsFile).Decode(&assignments);
     if (decodeErr != nil) { log.Fatal(decodeErr); }
+    var sampleAmbient types.Ambient;
+    for _, assignment := range assignments {
+        for _, e := range assignment.Groups {
+            sampleAmbient.AmbientID = e.AmbientID;
+            sampleAmbient.Category = strings.Split(e.AmbientID, ".")[0];
+            sampleAmbient.Description = "";
+            sampleAmbient.Gallery = nil;
+            sampleAmbient.Tags = nil;
 
+            ambientsList = append(ambientsList, sampleAmbient);
+        }
+    }
 
-    fmt.Println(log.Ltime);
+    urlPath := filepath.Clean((*r).URL.Path);
+    log.Println((*r).Method + " @ " + urlPath);
+
+    pathElements := strings.Split(urlPath, "/");
+
+    log.Println("-> " + fmt.Sprint(len(pathElements)));
+
+    if (len(pathElements) < 4) {
+        DisplayAmbients(w, ambientsList);
+    } else if (len(pathElements) == 5 && pathElements[3] == "category") {
+        displayCategory := getCategoryList(ambientsList, pathElements[4]);
+        DisplayAmbients(w, displayCategory);
+    } else if (pathElements[3] == "ambient_id") {
+        log.Println(r.URL.RawQuery)
+        ambientID := r.URL.Query().Get("id");
+        displayList := getIdList(ambientsList, ambientID);
+        DisplayAmbients(w, displayList);
+    } else {
+        DisplayAmbients(w, ambientsList);
+    }
+}
+
+func DisplayAmbients(w http.ResponseWriter, ambientsList []types.Ambient) {
+    ambientsStringData := new(strings.Builder);
+    json.NewEncoder(ambientsStringData).Encode(ambientsList);
+    w.Write([]byte(ambientsStringData.String()));
+}
+
+func getCategoryList(ambientsList []types.Ambient, category string) []types.Ambient {
+    var newAmbientsList []types.Ambient;
+    for _, ambient := range ambientsList {
+        if (ambient.Category == category) {
+            newAmbientsList = append(newAmbientsList, ambient);
+        }
+    }
+    return newAmbientsList;
+}
+
+func getIdList(ambientsList []types.Ambient, id string) []types.Ambient {
+    var newAmbientsList []types.Ambient;
+    for _, ambient := range ambientsList {
+        if (ambient.AmbientID == id) {
+            newAmbientsList = append(newAmbientsList, ambient);
+        }
+    }
+    return newAmbientsList;
 }
 

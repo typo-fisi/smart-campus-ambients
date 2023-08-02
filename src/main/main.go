@@ -7,7 +7,7 @@ import (
 
 func main() {
     http.HandleFunc("/api/assignments/", handlers.AssignmentsHandler);
-    //http.HandleFunc("/api/ambients/", handlers.AmbientsHandler);
+    http.HandleFunc("/api/ambients/", handlers.AmbientsHandler);
     http.ListenAndServe(":4000", nil);
 }
 

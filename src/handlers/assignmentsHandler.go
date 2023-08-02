@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path/filepath"
 	"strings"
 )
 
@@ -17,7 +18,7 @@ func AssignmentsHandler(w http.ResponseWriter, r *http.Request) {
     assignmentsFile, openErr := os.Open("/home/bauer/Projects/smartcampus-ambients-end/dump/assignments.json");
     if (openErr != nil) { log.Fatal(openErr) }
 
-    urlPath := (*r).URL.Path;
+    urlPath := filepath.Clean((*r).URL.Path);
     pathMembers := separatePath(urlPath);
 
     var allAssignments []types.Assignment;
@@ -27,12 +28,11 @@ func AssignmentsHandler(w http.ResponseWriter, r *http.Request) {
     if (decodingErr != nil) { log.Fatal(decodingErr) }
 
     var pathID string;
-
-    if (pathMembers[3] != "") {
+    if (len(pathMembers) < 4) {
+        getAllAssignments(w, allAssignments);
+    } else {
         pathID = pathMembers[3];
         getSingleAssignment(w, allAssignments, pathID);
-    } else {
-        getAllAssignments(w, allAssignments);
     }
 }
 
