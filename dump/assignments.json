@@ -1,0 +1,1836 @@
+[
+    {
+        "code": "INE002",
+        "name": "PROGRAMACIÓN Y COMPUTACIÓN",
+        "credits": "2.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "SALINAS AZAÑA, GILBERTO ANÍBAL",
+                    "code": "089575"
+                },
+                "schedule": {},
+                "enrolled": "43",
+                "ambient_id": 0.804571375436137
+            },
+            {
+                "professor": {
+                    "name": "RUIZ RIVERA, MARIA ELENA",
+                    "code": "0A0182"
+                },
+                "schedule": {},
+                "enrolled": "24",
+                "ambient_id": 0.8096412987408221
+            },
+            {
+                "professor": {
+                    "name": "RUIZ RIVERA, MARIA ELENA",
+                    "code": "0A0182"
+                },
+                "schedule": {},
+                "enrolled": "33",
+                "ambient_id": 0.8496475048573011
+            },
+            {
+                "professor": {
+                    "name": "SALINAS AZAÑA, GILBERTO ANÍBAL",
+                    "code": "089575"
+                },
+                "schedule": {},
+                "enrolled": "18",
+                "ambient_id": 0.5151898363358869
+            },
+            {
+                "professor": {
+                    "name": "PETRLIK AZABACHE, IVAN CARLO",
+                    "code": "0A9126"
+                },
+                "schedule": {},
+                "enrolled": "40",
+                "ambient_id": 0.7995943533371603
+            }
+        ]
+    },
+    {
+        "code": "INE013",
+        "name": "EMPRENDIMIENTO E INNOVACIÓN",
+        "credits": "2.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "CARRASCO ORÉ, NILO ELOY",
+                    "code": "0A1234"
+                },
+                "schedule": {},
+                "enrolled": "23",
+                "ambient_id": 0.6899412869508295
+            }
+        ]
+    },
+    {
+        "code": "INO101",
+        "name": "REDACCIÓN Y TÉCNICAS DE COMUNICACIÓN EFECTIVA I",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "PERALTA ORTIZ, VILMA",
+                    "code": "10665694"
+                },
+                "schedule": {},
+                "enrolled": "45",
+                "ambient_id": 0.6659961744795542
+            },
+            {
+                "professor": {
+                    "name": "PERALTA ORTIZ, VILMA",
+                    "code": "10665694"
+                },
+                "schedule": {},
+                "enrolled": "36",
+                "ambient_id": 0.7164959523598662
+            },
+            {
+                "professor": {
+                    "name": "VICUÑA URETA, AMILCAR MAXIMO",
+                    "code": "43323444"
+                },
+                "schedule": {},
+                "enrolled": "46",
+                "ambient_id": 0.663912738158382
+            },
+            {
+                "professor": {
+                    "name": "VICUÑA URETA, AMILCAR MAXIMO",
+                    "code": "43323444"
+                },
+                "schedule": {},
+                "enrolled": "20",
+                "ambient_id": 0.2699913212641283
+            }
+        ]
+    },
+    {
+        "code": "INO102",
+        "name": "MÉTODOS DE ESTUDIO UNIVERSITARIO",
+        "credits": "2.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "-- --, --",
+                    "code": "--"
+                },
+                "schedule": {},
+                "enrolled": "43",
+                "ambient_id": 0.25501700380247083
+            },
+            {
+                "professor": {
+                    "name": "-- --, --",
+                    "code": "--"
+                },
+                "schedule": {},
+                "enrolled": "38",
+                "ambient_id": 0.2144197461654591
+            },
+            {
+                "professor": {
+                    "name": "SANTISTEBAN PAZOS, JOSE LUIS",
+                    "code": "41570960"
+                },
+                "schedule": {},
+                "enrolled": "45",
+                "ambient_id": 0.45961880777999564
+            },
+            {
+                "professor": {
+                    "name": "SANTISTEBAN PAZOS, JOSE LUIS",
+                    "code": "41570960"
+                },
+                "schedule": {},
+                "enrolled": "5",
+                "ambient_id": 0.12112884051714001
+            },
+            {
+                "professor": {
+                    "name": "FERNANDEZ ORTIZ, JAQUELIN",
+                    "code": "46325393"
+                },
+                "schedule": {},
+                "enrolled": "11",
+                "ambient_id": 0.2648889019113747
+            }
+        ]
+    },
+    {
+        "code": "INO103",
+        "name": "DESARROLLO PERSONAL Y LIDERAZGO",
+        "credits": "2.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "MENDOZA YAÑEZ, MARÍA DEL PILAR",
+                    "code": "42097575"
+                },
+                "schedule": {},
+                "enrolled": "40",
+                "ambient_id": 0.8371104646967036
+            },
+            {
+                "professor": {
+                    "name": "MENDOZA YAÑEZ, MARÍA DEL PILAR",
+                    "code": "42097575"
+                },
+                "schedule": {},
+                "enrolled": "44",
+                "ambient_id": 0.8512792943186522
+            },
+            {
+                "professor": {
+                    "name": "MENDOZA YAÑEZ, MARÍA DEL PILAR",
+                    "code": "42097575"
+                },
+                "schedule": {},
+                "enrolled": "46",
+                "ambient_id": 0.04888558533716325
+            },
+            {
+                "professor": {
+                    "name": "MENDOZA YAÑEZ, MARÍA DEL PILAR",
+                    "code": "42097575"
+                },
+                "schedule": {},
+                "enrolled": "11",
+                "ambient_id": 0.4746536821698544
+            }
+        ]
+    },
+    {
+        "code": "INO104",
+        "name": "CÁLCULO I",
+        "credits": "4.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "BRAVO QUISPE, MARIBEL ROSA",
+                    "code": "41652779"
+                },
+                "schedule": {},
+                "enrolled": "45",
+                "ambient_id": 0.25451090380142927
+            },
+            {
+                "professor": {
+                    "name": "BRAVO QUISPE, MARIBEL ROSA",
+                    "code": "41652779"
+                },
+                "schedule": {},
+                "enrolled": "29",
+                "ambient_id": 0.5182258766420207
+            },
+            {
+                "professor": {
+                    "name": "ATOCHE ESPINOZA, VICENTE AGUSTIN",
+                    "code": "06180110"
+                },
+                "schedule": {},
+                "enrolled": "48",
+                "ambient_id": 0.17524837391216952
+            },
+            {
+                "professor": {
+                    "name": "ATOCHE ESPINOZA, VICENTE AGUSTIN",
+                    "code": "06180110"
+                },
+                "schedule": {},
+                "enrolled": "22",
+                "ambient_id": 0.5512730057072219
+            }
+        ]
+    },
+    {
+        "code": "INO105",
+        "name": "BIOLOGÍA PARA CIENCIAS E INGENIERÍA",
+        "credits": "4.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "ARIAS RAMIREZ, ANGELA RENEE",
+                    "code": "08458590"
+                },
+                "schedule": {},
+                "enrolled": "44",
+                "ambient_id": 0.38297674244627977
+            },
+            {
+                "professor": {
+                    "name": "ARIAS RAMIREZ, ANGELA RENEE",
+                    "code": "08458590"
+                },
+                "schedule": {},
+                "enrolled": "42",
+                "ambient_id": 0.9330664882290609
+            },
+            {
+                "professor": {
+                    "name": "ARIAS RAMIREZ, ANGELA RENEE",
+                    "code": "08458590"
+                },
+                "schedule": {},
+                "enrolled": "17",
+                "ambient_id": 0.5623728051439074
+            },
+            {
+                "professor": {
+                    "name": "ARIAS RAMIREZ, ANGELA RENEE",
+                    "code": "08458590"
+                },
+                "schedule": {},
+                "enrolled": "43",
+                "ambient_id": 0.20581535510922389
+            }
+        ]
+    },
+    {
+        "code": "INO106",
+        "name": "ÁLGEBRA Y GEOMETRÍA ANALÍTICA",
+        "credits": "4.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "ALEJANDRO AGUILAR, MIGUEL ÁNGEL",
+                    "code": "45296951"
+                },
+                "schedule": {},
+                "enrolled": "49",
+                "ambient_id": 0.6424183990787868
+            },
+            {
+                "professor": {
+                    "name": "ALEJANDRO AGUILAR, MIGUEL ÁNGEL",
+                    "code": "45296951"
+                },
+                "schedule": {},
+                "enrolled": "49",
+                "ambient_id": 0.24260338343232135
+            },
+            {
+                "professor": {
+                    "name": "REYES CABRERA, NEPTALI ANTONY",
+                    "code": "42255984"
+                },
+                "schedule": {},
+                "enrolled": "42",
+                "ambient_id": 0.6208498499445363
+            },
+            {
+                "professor": {
+                    "name": "REYES CABRERA, NEPTALI ANTONY",
+                    "code": "42255984"
+                },
+                "schedule": {},
+                "enrolled": "16",
+                "ambient_id": 0.3649142968935235
+            }
+        ]
+    },
+    {
+        "code": "INO107",
+        "name": "MEDIO AMBIENTE Y DESARROLLO SOSTENIBLE",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "COLCA GARCIA, HEDDY LILIANA",
+                    "code": "09620253"
+                },
+                "schedule": {},
+                "enrolled": "47",
+                "ambient_id": 0.7713180812688316
+            },
+            {
+                "professor": {
+                    "name": "COLCA GARCIA, HEDDY LILIANA",
+                    "code": "09620253"
+                },
+                "schedule": {},
+                "enrolled": "55",
+                "ambient_id": 0.6475816061024182
+            },
+            {
+                "professor": {
+                    "name": "-- --, --",
+                    "code": "--"
+                },
+                "schedule": {},
+                "enrolled": "24",
+                "ambient_id": 0.878192842188561
+            },
+            {
+                "professor": {
+                    "name": "-- --, --",
+                    "code": "--"
+                },
+                "schedule": {},
+                "enrolled": "11",
+                "ambient_id": 0.04911271180813048
+            },
+            {
+                "professor": {
+                    "name": "INGA ALVA, ALEXANDER EDUARDO",
+                    "code": "07493618"
+                },
+                "schedule": {},
+                "enrolled": "11",
+                "ambient_id": 0.315398781091224
+            }
+        ]
+    },
+    {
+        "code": "INO201",
+        "name": "REDACCIÓN Y TÉCNICAS DE COMUNICACIÓN EFECTIVA II",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "GARCIA LIZA, ANA MARIA",
+                    "code": "028479"
+                },
+                "schedule": {},
+                "enrolled": "10",
+                "ambient_id": 0.8536444337351048
+            }
+        ]
+    },
+    {
+        "code": "INO202",
+        "name": "INVESTIGACIÓN FORMATIVA",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "GUZMÁN MONTEZA, YUDI LUCERO",
+                    "code": "0A5307"
+                },
+                "schedule": {},
+                "enrolled": "8",
+                "ambient_id": 0.24290868085982842
+            }
+        ]
+    },
+    {
+        "code": "INO203",
+        "name": "REALIDAD NACIONAL Y MUNDIAL",
+        "credits": "2.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "COLCA GARCIA, HEDDY LILIANA",
+                    "code": "09620253"
+                },
+                "schedule": {},
+                "enrolled": "6",
+                "ambient_id": 0.5581231612130246
+            }
+        ]
+    },
+    {
+        "code": "INO204",
+        "name": "CÁLCULO II",
+        "credits": "4.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "BRAVO QUISPE, MARIBEL ROSA",
+                    "code": "41652779"
+                },
+                "schedule": {},
+                "enrolled": "13",
+                "ambient_id": 0.672032250448849
+            }
+        ]
+    },
+    {
+        "code": "INO205",
+        "name": "FÍSICA I",
+        "credits": "4.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "TESILLO QUISPE, MABEL ERLINDA",
+                    "code": "0A2086"
+                },
+                "schedule": {},
+                "enrolled": "10",
+                "ambient_id": 0.9732518027529977
+            }
+        ]
+    },
+    {
+        "code": "INO206",
+        "name": "QUÍMICA GENERAL",
+        "credits": "4.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "GÓMEZ GALVEZ, SUSANA TERESA",
+                    "code": "08148546"
+                },
+                "schedule": {},
+                "enrolled": "8",
+                "ambient_id": 0.5115246585885738
+            }
+        ]
+    },
+    {
+        "code": "INO207",
+        "name": "INTRODUCCIÓN A LAS CIENCIAS E INGENIERÍA",
+        "credits": "2.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "-- --, --",
+                    "code": "--"
+                },
+                "schedule": {},
+                "enrolled": "6",
+                "ambient_id": 0.9769013532246107
+            }
+        ]
+    },
+    {
+        "code": "202W0301",
+        "name": "ALGORÍTMICA I",
+        "credits": "4.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "TRUJILLO TREJO, JOHNLEDGARD",
+                    "code": "09571E"
+                },
+                "schedule": {},
+                "enrolled": "42",
+                "ambient_id": 0.467523343531546
+            },
+            {
+                "professor": {
+                    "name": "GUERRA GRADOS, LUIS ANGEL",
+                    "code": "0A0419"
+                },
+                "schedule": {},
+                "enrolled": "43",
+                "ambient_id": 0.20372685492951814
+            }
+        ]
+    },
+    {
+        "code": "202W0302",
+        "name": "ESTADÍSTICA",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "GIRALDO LAGUNA, SUIBERTO ORLANDO",
+                    "code": "029351"
+                },
+                "schedule": {},
+                "enrolled": "63",
+                "ambient_id": 0.7144398640035325
+            },
+            {
+                "professor": {
+                    "name": "HUAROTO SUMARI, JUSTA CARIDAD",
+                    "code": "033936"
+                },
+                "schedule": {},
+                "enrolled": "22",
+                "ambient_id": 0.27684638095854797
+            },
+            {
+                "professor": {
+                    "name": "RAMON QUISPE, GREGORIA NATIVIDAD",
+                    "code": "057134"
+                },
+                "schedule": {},
+                "enrolled": "29",
+                "ambient_id": 0.958968403407968
+            }
+        ]
+    },
+    {
+        "code": "202W0303",
+        "name": "FISICA ELÉCTRONICA",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "MEJÍA SANTILLÁN, MIRIAN ESTHER",
+                    "code": "0A0755"
+                },
+                "schedule": {},
+                "enrolled": "35",
+                "ambient_id": 0.22420806194072518
+            },
+            {
+                "professor": {
+                    "name": "MORI ESCOBAR, FANNY ESMERALDA",
+                    "code": "0A2051"
+                },
+                "schedule": {},
+                "enrolled": "40",
+                "ambient_id": 0.39489396337902094
+            },
+            {
+                "professor": {
+                    "name": "PAREJA QUISPE, DAVID",
+                    "code": "0A7587"
+                },
+                "schedule": {},
+                "enrolled": "9",
+                "ambient_id": 0.37341523352822303
+            }
+        ]
+    },
+    {
+        "code": "202W0304",
+        "name": "INGENIERÍA ECONÓMICA",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "CHUMACERO CALLE, JOSÉ ANTONIO",
+                    "code": "0A1565"
+                },
+                "schedule": {},
+                "enrolled": "67",
+                "ambient_id": 0.8349820297710113
+            },
+            {
+                "professor": {
+                    "name": "REÁTEGUI SÁNCHEZ DE SÁNCHEZ, LLEYNI",
+                    "code": "057622"
+                },
+                "schedule": {},
+                "enrolled": "21",
+                "ambient_id": 0.23976882883378647
+            },
+            {
+                "professor": {
+                    "name": "CONTRERAS PAZ, CARLOS BENJAMÍN",
+                    "code": "01785A"
+                },
+                "schedule": {},
+                "enrolled": "42",
+                "ambient_id": 0.5135820414188019
+            }
+        ]
+    },
+    {
+        "code": "202W0305",
+        "name": "INTRODUCCIÓN AL DESARROLLO DE SOFTWARE",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "ZAVALETA CAMPOS, JORGE LUIS",
+                    "code": "0A1609"
+                },
+                "schedule": {},
+                "enrolled": "7",
+                "ambient_id": 0.3863421515496779
+            },
+            {
+                "professor": {
+                    "name": "ROMERO NAUPARI, PABLO JESUS",
+                    "code": "08803A"
+                },
+                "schedule": {},
+                "enrolled": "25",
+                "ambient_id": 0.6326428951758716
+            },
+            {
+                "professor": {
+                    "name": "ARREDONDO CASTILLO, GUSTAVO",
+                    "code": "0A1982"
+                },
+                "schedule": {},
+                "enrolled": "39",
+                "ambient_id": 0.7275558082961482
+            },
+            {
+                "professor": {
+                    "name": "LEZAMA GONZALES, PEDRO MARTÍN",
+                    "code": "0A9124"
+                },
+                "schedule": {},
+                "enrolled": "29",
+                "ambient_id": 0.24007608310847517
+            }
+        ]
+    },
+    {
+        "code": "202W0306",
+        "name": "MATEMÁTICA BÁSICA",
+        "credits": "4.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "TERREROS NAVARRO, HELLEN GLORIA",
+                    "code": "40667934"
+                },
+                "schedule": {},
+                "enrolled": "51",
+                "ambient_id": 0.5257124908419197
+            },
+            {
+                "professor": {
+                    "name": "ARBAÑIL RIVADENEIRA, RUBEN ORLANDO",
+                    "code": "0A0283"
+                },
+                "schedule": {},
+                "enrolled": "26",
+                "ambient_id": 0.40501533276972257
+            },
+            {
+                "professor": {
+                    "name": "CARRILLO DIAZ, LUIS ENRIQUE",
+                    "code": "091006"
+                },
+                "schedule": {},
+                "enrolled": "44",
+                "ambient_id": 0.263641552192883
+            }
+        ]
+    },
+    {
+        "code": "202W0307",
+        "name": "ORGANIZACIÓN Y ADMINISTRACIÓN",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "CHÁVEZ HERRERA , CARLOS ERNESTO",
+                    "code": "0A1871"
+                },
+                "schedule": {},
+                "enrolled": "33",
+                "ambient_id": 0.9604861518372383
+            },
+            {
+                "professor": {
+                    "name": "ANGULO CALDERÓN, CÉSAR AUGUSTO",
+                    "code": "0A1612"
+                },
+                "schedule": {},
+                "enrolled": "38",
+                "ambient_id": 0.8487135692730112
+            },
+            {
+                "professor": {
+                    "name": "SANTISTEBAN PAZOS, JOSE LUIS",
+                    "code": "41570960"
+                },
+                "schedule": {},
+                "enrolled": "15",
+                "ambient_id": 0.2207917068789782
+            }
+        ]
+    },
+    {
+        "code": "202W0401",
+        "name": "ALGORÍTMICA II",
+        "credits": "4.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "ZAVALETA CAMPOS, JORGE LUIS",
+                    "code": "0A1609"
+                },
+                "schedule": {},
+                "enrolled": "23",
+                "ambient_id": 0.11416160610726389
+            }
+        ]
+    },
+    {
+        "code": "202W0402",
+        "name": "CONTABILIDAD PARA LA GESTIÓN",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "REÁTEGUI SÁNCHEZ DE SÁNCHEZ, LLEYNI",
+                    "code": "057622"
+                },
+                "schedule": {},
+                "enrolled": "36",
+                "ambient_id": 0.7412337694196642
+            }
+        ]
+    },
+    {
+        "code": "202W0403",
+        "name": "INNOVACIÓN, TECNOLOGÍA Y EMPRENDIMIENTO",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "BAYONA ORÉ, LUZ SUSSY",
+                    "code": "0A4524"
+                },
+                "schedule": {},
+                "enrolled": "21",
+                "ambient_id": 0.5558212020893258
+            }
+        ]
+    },
+    {
+        "code": "202W0404",
+        "name": "MATEMÁTICA DISCRETA",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "QUINTO PAZCE, DANIEL",
+                    "code": "055867"
+                },
+                "schedule": {},
+                "enrolled": "31",
+                "ambient_id": 0.5530519178717397
+            }
+        ]
+    },
+    {
+        "code": "202W0405",
+        "name": "PROBABILIDADES",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "MIRANDA ROBLES, MARY YRIS",
+                    "code": "044814"
+                },
+                "schedule": {},
+                "enrolled": "27",
+                "ambient_id": 0.7489752454609229
+            }
+        ]
+    },
+    {
+        "code": "202W0406",
+        "name": "PROCESOS DE SOFTWARE",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "INGA LÓPEZ, WILDER ALEX",
+                    "code": "20037777"
+                },
+                "schedule": {},
+                "enrolled": "25",
+                "ambient_id": 0.0894835166407506
+            }
+        ]
+    },
+    {
+        "code": "202W0407",
+        "name": "SISTEMAS DIGITALES",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "CONTRERAS FLORES, WALTER PEDRO",
+                    "code": "017779"
+                },
+                "schedule": {},
+                "enrolled": "5",
+                "ambient_id": 0.5104329790908351
+            },
+            {
+                "professor": {
+                    "name": "FERMIN PEREZ, FELIX ARMANDO",
+                    "code": "099589"
+                },
+                "schedule": {},
+                "enrolled": "31",
+                "ambient_id": 0.8865144805478091
+            }
+        ]
+    },
+    {
+        "code": "202W0501",
+        "name": "ANÁLISIS Y DISEÑO DE ALGORITMOS",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "PRUDENCIO VIDAL, JAVIER ANTONIO",
+                    "code": "0A7565"
+                },
+                "schedule": {},
+                "enrolled": "29",
+                "ambient_id": 0.6927221794888754
+            },
+            {
+                "professor": {
+                    "name": "PRUDENCIO VIDAL, JAVIER ANTONIO",
+                    "code": "0A7565"
+                },
+                "schedule": {},
+                "enrolled": "5",
+                "ambient_id": 0.01521686476513695
+            },
+            {
+                "professor": {
+                    "name": "GUERRA GRADOS, LUIS ANGEL",
+                    "code": "0A0419"
+                },
+                "schedule": {},
+                "enrolled": "15",
+                "ambient_id": 0.39542768501561865
+            },
+            {
+                "professor": {
+                    "name": "TICONA ZEGARRA, EDSON ARIEL",
+                    "code": "45642296"
+                },
+                "schedule": {},
+                "enrolled": "39",
+                "ambient_id": 0.4577878806419047
+            }
+        ]
+    },
+    {
+        "code": "202W0502",
+        "name": "ARQUITECTURA DE COMPUTADORAS",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "AGUILAR ALONSO, IGOR JOVINO",
+                    "code": "0A5306"
+                },
+                "schedule": {},
+                "enrolled": "49",
+                "ambient_id": 0.4261812554051929
+            },
+            {
+                "professor": {
+                    "name": "GONZÁLES SUÁREZ, JUAN CARLOS",
+                    "code": "030228"
+                },
+                "schedule": {},
+                "enrolled": "42",
+                "ambient_id": 0.9125301771277861
+            }
+        ]
+    },
+    {
+        "code": "202W0503",
+        "name": "CALIDAD DE SOFTWARE",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "BARTRA MORE, ARTURO ALEJANDRO",
+                    "code": "0A1877"
+                },
+                "schedule": {},
+                "enrolled": "41",
+                "ambient_id": 0.3618682437272782
+            },
+            {
+                "professor": {
+                    "name": "ALARCÓN LOAYZA, LUIS ALBERTO",
+                    "code": "091081"
+                },
+                "schedule": {},
+                "enrolled": "32",
+                "ambient_id": 0.4712950948713175
+            },
+            {
+                "professor": {
+                    "name": "LEZAMA GONZALES, PEDRO MARTÍN",
+                    "code": "0A9124"
+                },
+                "schedule": {},
+                "enrolled": "23",
+                "ambient_id": 0.7491386662044377
+            }
+        ]
+    },
+    {
+        "code": "202W0504",
+        "name": "COMPUTACIÓN VISUAL",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "AVENDAÑO QUIROZ, JOHNNY ROBERTO",
+                    "code": "097543"
+                },
+                "schedule": {},
+                "enrolled": "42",
+                "ambient_id": 0.8407105283584646
+            },
+            {
+                "professor": {
+                    "name": "AVENDAÑO QUIROZ, JOHNNY ROBERTO",
+                    "code": "097543"
+                },
+                "schedule": {},
+                "enrolled": "30",
+                "ambient_id": 0.5219938668271062
+            }
+        ]
+    },
+    {
+        "code": "202W0505",
+        "name": "ESTRUCTURA DE DATOS",
+        "credits": "4.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "PRÓ CONCEPCIÓN, LUZMILA ELISA",
+                    "code": "055123"
+                },
+                "schedule": {},
+                "enrolled": "32",
+                "ambient_id": 0.10190120738063513
+            },
+            {
+                "professor": {
+                    "name": "ARREDONDO CASTILLO, GUSTAVO",
+                    "code": "0A1982"
+                },
+                "schedule": {},
+                "enrolled": "38",
+                "ambient_id": 0.4077167472987744
+            },
+            {
+                "professor": {
+                    "name": "CORAL YGNACIO, MARCO ANTONIO",
+                    "code": "0A1232"
+                },
+                "schedule": {},
+                "enrolled": "29",
+                "ambient_id": 0.9098391060781765
+            }
+        ]
+    },
+    {
+        "code": "202W0506",
+        "name": "ECONOMÍA PARA LA GESTIÓN",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "SAN JUAN LEZAMA, HERMINIO GRIMALDO",
+                    "code": "09532A"
+                },
+                "schedule": {},
+                "enrolled": "6",
+                "ambient_id": 0.045921628965385874
+            },
+            {
+                "professor": {
+                    "name": "CHUMACERO CALLE, JOSÉ ANTONIO",
+                    "code": "0A1565"
+                },
+                "schedule": {},
+                "enrolled": "40",
+                "ambient_id": 0.5120134801719831
+            },
+            {
+                "professor": {
+                    "name": "CARDENAS YACTAYO, URCISINIO VICENTE",
+                    "code": "012351"
+                },
+                "schedule": {},
+                "enrolled": "5",
+                "ambient_id": 0.7729055048252107
+            }
+        ]
+    },
+    {
+        "code": "202W0507",
+        "name": "INGENIERÍA DE REQUISITOS",
+        "credits": "4.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "RODRÍGUEZ RODRÍGUEZ , CIRO",
+                    "code": "0A5230"
+                },
+                "schedule": {},
+                "enrolled": "40",
+                "ambient_id": 0.34222162577048576
+            },
+            {
+                "professor": {
+                    "name": "CHÁVEZ HERRERA , CARLOS ERNESTO",
+                    "code": "0A1871"
+                },
+                "schedule": {},
+                "enrolled": "17",
+                "ambient_id": 0.8870821526823918
+            }
+        ]
+    },
+    {
+        "code": "202W0601",
+        "name": "ASEGURAMIENTO DE LA CALIDAD DEL SOFTWARE",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "HUAPAYA CHUMPITAZ, MARIO AGUSTÍN",
+                    "code": "0A5291"
+                },
+                "schedule": {},
+                "enrolled": "17",
+                "ambient_id": 0.09575863744248547
+            }
+        ]
+    },
+    {
+        "code": "202W0602",
+        "name": "BASE DE DATOS I",
+        "credits": "4.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "MURAKAMI DE LA CRUZ , SUMIKO ELIZABETH",
+                    "code": "0A1876"
+                },
+                "schedule": {},
+                "enrolled": "18",
+                "ambient_id": 0.3874505277417146
+            }
+        ]
+    },
+    {
+        "code": "202W0603",
+        "name": "DISEÑO DE SOFTWARE",
+        "credits": "4.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "MENÉNDEZ MUERAS, ROSA",
+                    "code": "0A4525"
+                },
+                "schedule": {},
+                "enrolled": "21",
+                "ambient_id": 0.3485827606943124
+            }
+        ]
+    },
+    {
+        "code": "202W0604",
+        "name": "FORMACIÓN DE EMPRESAS DE SOFTWARE",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "BAYONA ORÉ, LUZ SUSSY",
+                    "code": "0A4524"
+                },
+                "schedule": {},
+                "enrolled": "15",
+                "ambient_id": 0.6840508678263095
+            },
+            {
+                "professor": {
+                    "name": "ALCÁNTARA LOAYZA, CÉSAR AUGUSTO",
+                    "code": "09831E"
+                },
+                "schedule": {},
+                "enrolled": "22",
+                "ambient_id": 0.3248621993900336
+            }
+        ]
+    },
+    {
+        "code": "202W0605",
+        "name": "GESTIÓN DE LA CONFIGURACIÓN DEL SOFTWARE",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "WONG PORTILLO , LENIS ROSSI",
+                    "code": "0A1875"
+                },
+                "schedule": {},
+                "enrolled": "35",
+                "ambient_id": 0.6984066138928067
+            },
+            {
+                "professor": {
+                    "name": "WONG PORTILLO , LENIS ROSSI",
+                    "code": "0A1875"
+                },
+                "schedule": {},
+                "enrolled": "29",
+                "ambient_id": 0.6011045537914155
+            }
+        ]
+    },
+    {
+        "code": "202W0606",
+        "name": "INTERACCIÓN HOMBRE COMPUTADOR",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "ESPINOZA DOMINGUEZ, ROBERT ELIAS",
+                    "code": "094315"
+                },
+                "schedule": {},
+                "enrolled": "32",
+                "ambient_id": 0.30150799733484535
+            }
+        ]
+    },
+    {
+        "code": "202W0607",
+        "name": "SISTEMAS OPERATIVOS",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "PARIONA QUISPE, JAIME RUBEN",
+                    "code": "051934"
+                },
+                "schedule": {},
+                "enrolled": "21",
+                "ambient_id": 0.5147627997380999
+            }
+        ]
+    },
+    {
+        "code": "202W0701",
+        "name": "ARQUITECTURA DE SOFTWARE",
+        "credits": "4.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "CORDERO SÁNCHEZ, HUGO RAFAEL",
+                    "code": "0A1874"
+                },
+                "schedule": {},
+                "enrolled": "11",
+                "ambient_id": 0.5766618686186968
+            },
+            {
+                "professor": {
+                    "name": "MENÉNDEZ MUERAS, ROSA",
+                    "code": "0A4525"
+                },
+                "schedule": {},
+                "enrolled": "41",
+                "ambient_id": 0.08126092174448751
+            }
+        ]
+    },
+    {
+        "code": "202W0702",
+        "name": "BASE DE DATOS II",
+        "credits": "4.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "GAMARRA MORENO, JUAN",
+                    "code": "0A2067"
+                },
+                "schedule": {},
+                "enrolled": "30",
+                "ambient_id": 0.5309619905910594
+            },
+            {
+                "professor": {
+                    "name": "ARREDONDO CASTILLO, GUSTAVO",
+                    "code": "0A1982"
+                },
+                "schedule": {},
+                "enrolled": "21",
+                "ambient_id": 0.941950962884899
+            }
+        ]
+    },
+    {
+        "code": "202W0703",
+        "name": "EXPERIENCIA DE USUARIO Y USABILIDAD",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "REYES HUAMÁN, ANITA MARLENE",
+                    "code": "10399394"
+                },
+                "schedule": {},
+                "enrolled": "39",
+                "ambient_id": 0.4083917281877065
+            },
+            {
+                "professor": {
+                    "name": "REYES HUAMÁN, ANITA MARLENE",
+                    "code": "10399394"
+                },
+                "schedule": {},
+                "enrolled": "22",
+                "ambient_id": 0.505196463773558
+            }
+        ]
+    },
+    {
+        "code": "202W0704",
+        "name": "GESTIÓN DE PROYECTO DE SOFTWARE",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "BARTRA MORE, ARTURO ALEJANDRO",
+                    "code": "0A1877"
+                },
+                "schedule": {},
+                "enrolled": "72",
+                "ambient_id": 0.5930156102830908
+            },
+            {
+                "professor": {
+                    "name": "CÁNEPA PÉREZ, CARLOS ALBERTO",
+                    "code": "011797"
+                },
+                "schedule": {},
+                "enrolled": "10",
+                "ambient_id": 0.529867001456342
+            }
+        ]
+    },
+    {
+        "code": "202W0705",
+        "name": "INTELIGENCIA ARTIFICIAL",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "GAMARRA MORENO, JUAN",
+                    "code": "0A2067"
+                },
+                "schedule": {},
+                "enrolled": "57",
+                "ambient_id": 0.14714696526408222
+            },
+            {
+                "professor": {
+                    "name": "GAMARRA MORENO, JUAN",
+                    "code": "0A2067"
+                },
+                "schedule": {},
+                "enrolled": "26",
+                "ambient_id": 0.12695676207361295
+            }
+        ]
+    },
+    {
+        "code": "202W0706",
+        "name": "MÉTODOS FORMALES PARA PRUEBAS",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "BARTRA MORE, ARTURO ALEJANDRO",
+                    "code": "0A1877"
+                },
+                "schedule": {},
+                "enrolled": "43",
+                "ambient_id": 0.2490779435770598
+            },
+            {
+                "professor": {
+                    "name": "BARTRA MORE, ARTURO ALEJANDRO",
+                    "code": "0A1877"
+                },
+                "schedule": {},
+                "enrolled": "33",
+                "ambient_id": 0.909690495410993
+            }
+        ]
+    },
+    {
+        "code": "202W0707",
+        "name": "REDES Y TRANSMISIÓN DE DATOS",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "UGAZ CACHAY , WINSTON IGNACIO",
+                    "code": "0A1981"
+                },
+                "schedule": {},
+                "enrolled": "47",
+                "ambient_id": 0.21523641060636534
+            },
+            {
+                "professor": {
+                    "name": "UGAZ CACHAY , WINSTON IGNACIO",
+                    "code": "0A1981"
+                },
+                "schedule": {},
+                "enrolled": "39",
+                "ambient_id": 0.22216509615715596
+            }
+        ]
+    },
+    {
+        "code": "202W0801",
+        "name": "AUTOMATIZACIÓN Y CONTROL DE SOFTWARE",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "FERMIN PEREZ, FELIX ARMANDO",
+                    "code": "099589"
+                },
+                "schedule": {},
+                "enrolled": "25",
+                "ambient_id": 0.581362438887203
+            }
+        ]
+    },
+    {
+        "code": "202W0802",
+        "name": "INTELIGENCIA DE NEGOCIOS",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "CANCHO RODRÍGUEZ, ERNESTO DAVID",
+                    "code": "0A7624"
+                },
+                "schedule": {},
+                "enrolled": "37",
+                "ambient_id": 0.004264554526866249
+            }
+        ]
+    },
+    {
+        "code": "202W0803",
+        "name": "METODOLOGÍA DE LA INVESTIGACIÓN",
+        "credits": "2.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "LA SERNA PALOMINO, NORA BERTHA",
+                    "code": "088005"
+                },
+                "schedule": {},
+                "enrolled": "1",
+                "ambient_id": 0.46844147246313583
+            },
+            {
+                "professor": {
+                    "name": "LEÓN FERNÁNDEZ, CAYO VÍCTOR",
+                    "code": "037605"
+                },
+                "schedule": {},
+                "enrolled": "1",
+                "ambient_id": 0.1715100244993213
+            },
+            {
+                "professor": {
+                    "name": "PRÓ CONCEPCIÓN, LUZMILA ELISA",
+                    "code": "055123"
+                },
+                "schedule": {},
+                "enrolled": "1",
+                "ambient_id": 0.022051614546979792
+            },
+            {
+                "professor": {
+                    "name": "LUZA MONTERO, CÉSAR",
+                    "code": "098329"
+                },
+                "schedule": {},
+                "enrolled": "9",
+                "ambient_id": 0.8812715782954448
+            }
+        ]
+    },
+    {
+        "code": "202W0804",
+        "name": "MINERÍA DE DATOS",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "CALDERON VILCA, HUGO DAVID",
+                    "code": "0A2417"
+                },
+                "schedule": {},
+                "enrolled": "30",
+                "ambient_id": 0.588443928678543
+            }
+        ]
+    },
+    {
+        "code": "202W0805",
+        "name": "PROGRAMACIÓN CONCURRENTE Y PARALELA",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "BUSTAMANTE OLIVERA, VÍCTORHUGO",
+                    "code": "095702"
+                },
+                "schedule": {},
+                "enrolled": "23",
+                "ambient_id": 0.5292540715350578
+            },
+            {
+                "professor": {
+                    "name": "BUSTAMANTE OLIVERA, VÍCTORHUGO",
+                    "code": "095702"
+                },
+                "schedule": {},
+                "enrolled": "25",
+                "ambient_id": 0.5886647139773284
+            }
+        ]
+    },
+    {
+        "code": "202W0806",
+        "name": "SEGURIDAD DEL SOFTWARE",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "COLLANTES INGA, ZOILA MERCEDES",
+                    "code": "40335157"
+                },
+                "schedule": {},
+                "enrolled": "12",
+                "ambient_id": 0.7653630758310863
+            }
+        ]
+    },
+    {
+        "code": "202W0807",
+        "name": "TALLER DE CONSTRUCCIÓN DE SOFTWARE WEB",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "CORDERO SÁNCHEZ, HUGO RAFAEL",
+                    "code": "0A1874"
+                },
+                "schedule": {},
+                "enrolled": "13",
+                "ambient_id": 0.23270826731187033
+            }
+        ]
+    },
+    {
+        "code": "202W0808",
+        "name": "VERIFICACIÓN Y VALIDACIÓN DE SOFTWARE",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "INGA LÓPEZ, WILDER ALEX",
+                    "code": "20037777"
+                },
+                "schedule": {},
+                "enrolled": "13",
+                "ambient_id": 0.5010214411861236
+            }
+        ]
+    },
+    {
+        "code": "202W0901",
+        "name": "DESARROLLO DE TESIS I",
+        "credits": "2.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "RODRÍGUEZ RODRÍGUEZ , CIRO",
+                    "code": "0A5230"
+                },
+                "schedule": {},
+                "enrolled": "27",
+                "ambient_id": 0.3395321281786481
+            },
+            {
+                "professor": {
+                    "name": "CALDERON VILCA, HUGO DAVID",
+                    "code": "0A2417"
+                },
+                "schedule": {},
+                "enrolled": "29",
+                "ambient_id": 0.4822697257023889
+            },
+            {
+                "professor": {
+                    "name": "SANTISTEBAN PAZOS, JOSE LUIS",
+                    "code": "41570960"
+                },
+                "schedule": {},
+                "enrolled": "37",
+                "ambient_id": 0.3486382416554801
+            }
+        ]
+    },
+    {
+        "code": "202W0902",
+        "name": "GARANTÍA DE SOFTWARE",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "-- --, --",
+                    "code": "--"
+                },
+                "schedule": {},
+                "enrolled": "86",
+                "ambient_id": 0.7302119255187824
+            }
+        ]
+    },
+    {
+        "code": "202W0903",
+        "name": "GERENCIA DE TECNOLOGÍA DE LA INFORMACIÓN",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "MACHADO VICENTE, JOEL FERNANDO",
+                    "code": "0A1873"
+                },
+                "schedule": {},
+                "enrolled": "71",
+                "ambient_id": 0.5033276544219596
+            }
+        ]
+    },
+    {
+        "code": "202W0904",
+        "name": "GESTIÓN DE MANTENIMIENTO DEL SOFTWARE",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "INGA LÓPEZ, WILDER ALEX",
+                    "code": "20037777"
+                },
+                "schedule": {},
+                "enrolled": "54",
+                "ambient_id": 0.8453528743050998
+            }
+        ]
+    },
+    {
+        "code": "202W0905",
+        "name": "GESTIÓN DE RIESGO DEL SOFTWARE",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "MACHADO VICENTE, JOEL FERNANDO",
+                    "code": "0A1873"
+                },
+                "schedule": {},
+                "enrolled": "79",
+                "ambient_id": 0.8777840994394388
+            }
+        ]
+    },
+    {
+        "code": "202W0906",
+        "name": "INTERNET DE LAS COSAS",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "VALCARCEL ASCENCIOS, SERGIO PAULO",
+                    "code": "0A4523"
+                },
+                "schedule": {},
+                "enrolled": "56",
+                "ambient_id": 0.9403340557598301
+            }
+        ]
+    },
+    {
+        "code": "202W0907",
+        "name": "TALLER DE CONSTRUCCIÓN DE SOFTWARE MÓVIL",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "PETRLIK AZABACHE, IVAN CARLO",
+                    "code": "0A9126"
+                },
+                "schedule": {},
+                "enrolled": "7",
+                "ambient_id": 0.07369756829961349
+            },
+            {
+                "professor": {
+                    "name": "TICONA ZEGARRA, EDSON ARIEL",
+                    "code": "45642296"
+                },
+                "schedule": {},
+                "enrolled": "13",
+                "ambient_id": 0.6231426586788611
+            }
+        ]
+    },
+    {
+        "code": "202W0908",
+        "name": "SOFTWARE INTELIGENTE",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "CALDERON VILCA, HUGO DAVID",
+                    "code": "0A2417"
+                },
+                "schedule": {},
+                "enrolled": "35",
+                "ambient_id": 0.08655209627544913
+            },
+            {
+                "professor": {
+                    "name": "CALDERON VILCA, HUGO DAVID",
+                    "code": "0A2417"
+                },
+                "schedule": {},
+                "enrolled": "23",
+                "ambient_id": 0.03576666141137319
+            }
+        ]
+    },
+    {
+        "code": "202W1001",
+        "name": "ANALÍTICA DE DATOS",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "LEZAMA GONZALES, PEDRO MARTÍN",
+                    "code": "0A9124"
+                },
+                "schedule": {},
+                "enrolled": "6",
+                "ambient_id": 0.7948226726024792
+            },
+            {
+                "professor": {
+                    "name": "LEZAMA GONZALES, PEDRO MARTÍN",
+                    "code": "0A9124"
+                },
+                "schedule": {},
+                "enrolled": "10",
+                "ambient_id": 0.5824841667430369
+            }
+        ]
+    },
+    {
+        "code": "202W1002",
+        "name": "DESARROLLO DE TESIS II",
+        "credits": "2.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "WONG PORTILLO , LENIS ROSSI",
+                    "code": "0A1875"
+                },
+                "schedule": {},
+                "enrolled": "14",
+                "ambient_id": 0.08755162733216437
+            },
+            {
+                "professor": {
+                    "name": "LA SERNA PALOMINO, NORA BERTHA",
+                    "code": "088005"
+                },
+                "schedule": {},
+                "enrolled": "4",
+                "ambient_id": 0.14686544562004245
+            },
+            {
+                "professor": {
+                    "name": "HERRERA QUISPE, JOSÉ ALFREDO",
+                    "code": "0A6226"
+                },
+                "schedule": {},
+                "enrolled": "2",
+                "ambient_id": 0.06943251295794828
+            }
+        ]
+    },
+    {
+        "code": "202W1003",
+        "name": "PRÁCTICA PRE PROFESIONAL",
+        "credits": "4.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "MURAKAMI DE LA CRUZ , SUMIKO ELIZABETH",
+                    "code": "0A1876"
+                },
+                "schedule": {},
+                "enrolled": "25",
+                "ambient_id": 0.8778204717207283
+            }
+        ]
+    },
+    {
+        "code": "202W1004",
+        "name": "TALLER DE APLICACIONES SOCIALES",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "LIMACHI CARTOLIN, YURY",
+                    "code": "46375392"
+                },
+                "schedule": {},
+                "enrolled": "30",
+                "ambient_id": 0.06705711797323954
+            }
+        ]
+    },
+    {
+        "code": "202W1005",
+        "name": "TENDENCIAS DE ARQUITECTURA DE SOFTWARE",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "TICONA ZEGARRA, EDSON ARIEL",
+                    "code": "45642296"
+                },
+                "schedule": {},
+                "enrolled": "25",
+                "ambient_id": 0.2904325406048103
+            }
+        ]
+    },
+    {
+        "code": "202W1006",
+        "name": "TENDENCIAS EN INGENIERÍA DE SOFTWARE Y GESTIÓN",
+        "credits": "3.0",
+        "groups": [
+            {
+                "professor": {
+                    "name": "MACHADO VICENTE, JOEL FERNANDO",
+                    "code": "0A1873"
+                },
+                "schedule": {},
+                "enrolled": "22",
+                "ambient_id": 0.49958230768950296
+            }
+        ]
+    }
+]

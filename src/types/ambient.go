@@ -2,7 +2,7 @@ package types
 
 type Ambient struct{
     Category string
-    Id string;
+    ID string;
     Location struct{
         piso int;
         geometría string;

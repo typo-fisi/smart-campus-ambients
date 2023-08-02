@@ -1,56 +1,64 @@
 # Schema
 
-So the idea of this is to get the information of the classes through endpoints in this api, like so:
+So the idea of this is to get the information of the classes through endpoints in this api, however, we must start with the notion of what an ambient is, since it is the base of the endpoints structure:
 
-- `GET /teachers` -> returns:
+## `type ambient`
 
-```json
-{
-    [
-        name: String,
-        code: String,
-        courses: {
-            [
-                {
-                    name: String,
-                    ID: String
-                },
-                ...
-            ]
-        }
-        ...
-    ]
+```go
+package types
+
+type Ambient struct{
+    Category string
+    Id string;
+    Location struct{
+        piso int;
+        geometría string;
+        pavilion string;
+    };
+    Description string;
+    Fotos []string;
+    Tags []string;
 }
 ```
 
-```ts
-interface Course {
-    name: string,
-    credits: number,
-    class_code: string, // INE002
-    professor: Professor,
-    schedule: {
-        weekday: number,
-        theory: {
-            from: number,
-            to: number
-        },
-        practice: {
-            from: number,
-            to: number
-        }
-    },
-    group: string, // sección
-    enrolled: number
-}
+An ambient is basically a room, it may be of type `administrativo`, `salones`, `sshh` o `laboratorios`, its `.Id` field is just `"Category.number"` where the `number` is some arbitrary number given by the campus.
 
+The first API to use should be then `GET /ambients` which shall list all existent ambients with its respective `ID`'s.
+
+## `type AssignmentGroup`
+
+```go
+type AssignmentGroup struct {
+    AmbientID string;
+    Group string;
+    Professor Professor;
+    Enrolled int;
+
+    Schedules []struct{
+        Day string;
+        ClassType string;
+        From int;
+        To int;
+    };
+}
 ```
 
-Alternatively, if we already have a certain teacher's ID -> `GET /teacher/{Code}`, which should return a single teacher's information.
+So each ambient (which serves as either a "salon" or "laboratorio") will have a current assignment in it, based on this we can:
 
-We should also be able to get only the certain course's information
+1. Get all of some ambient's assignments:
+- `GET /ambients/{ID}`
+2. Get the data of each one of those assignments:
+- `GET /assignmentgroup/{ID}`
+3. Get the data of the Professor which is currently at the ambient by the assignment it is currently hosting:
+- `GET /professors/{Professor.code}`
 
-- `GET /course/{ambient_id}`
+
+
+
+
+
+
+
 
 
 
