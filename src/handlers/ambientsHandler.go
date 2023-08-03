@@ -8,32 +8,28 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"strconv"
 	"strings"
 )
 
 func AmbientsHandler(w http.ResponseWriter, r *http.Request) {
+    EnableCors(&w);
+
     var assignments []types.Assignment;
     var ambientsList []types.Ambient;
 
-    assignmentsFile, openErr := os.Open("/home/bauer/Projects/smartcampus-ambients-end/dump/assignments.json");
+    assignmentsFile, openErr := os.Open("/home/bauer/Projects/smartcampus-ambients-end/dump/assignments2.json");
     if (openErr != nil) { log.Fatal(openErr); }
 
-    decodeErr := json.NewDecoder(assignmentsFile).Decode(&assignments);
-    if (decodeErr != nil) { log.Fatal(decodeErr); }
+    decode_assignmentsErr := json.NewDecoder(assignmentsFile).Decode(&assignments);
+    if (decode_assignmentsErr != nil) { log.Fatal(decode_assignmentsErr); }
 
-    var sampleAmbient types.Ambient;
+    ambientsFile, openErr := os.Open("/home/bauer/Projects/smartcampus-ambients-end/dump/ambients.json");
+    if (openErr != nil) { log.Fatal(openErr); }
 
-    for _, assignment := range assignments {
-        for _, e := range assignment.Groups {
-            sampleAmbient.AmbientID = e.AmbientID;
-            sampleAmbient.Category = strings.Split(e.AmbientID, ".")[0];
-            sampleAmbient.Description = "";
-            sampleAmbient.Gallery = nil;
-            sampleAmbient.Tags = nil;
+    decode_ambientsErr := json.NewDecoder(ambientsFile).Decode(&ambientsList);
+    if (decode_ambientsErr != nil) { log.Fatal(decode_ambientsErr); }
 
-            ambientsList = append(ambientsList, sampleAmbient);
-        }
-    }
 
     urlPath := filepath.Clean((*r).URL.Path);
     log.Println((*r).Method + " @ " + urlPath);
@@ -49,9 +45,23 @@ func AmbientsHandler(w http.ResponseWriter, r *http.Request) {
         displayAmbients(w, displayCategory);
     } else if (pathElements[3] == "ambient_id") {
         log.Println(r.URL.RawQuery)
-        ambientID := r.URL.Query().Get("id");
-        displayList := getIdList(ambientsList, ambientID, assignments);
-        displayAmbientsInterface(w, displayList);
+        ambientBigInt, parseErr := strconv.ParseInt(r.URL.Query().Get("id"), 10, 0);
+        ambientID := int(ambientBigInt);
+
+        if (parseErr != nil) {
+            displayAmbients(w, nil);
+            log.Println(parseErr);
+        }
+
+        switch getCategoryById(ambientsList, ambientID) {
+            case "salones":
+                displayList := getIdListSalones(ambientsList, ambientID, assignments);
+                displayAmbientsSalones(w, displayList);
+            default:
+                displayList := getIdList(ambientsList, ambientID, assignments);
+                displayAmbients(w, displayList);
+        }
+
     } else {
         displayAmbients(w, ambientsList);
     }
@@ -63,7 +73,7 @@ func displayAmbients(w http.ResponseWriter, ambientsList []types.Ambient) {
     w.Write([]byte(ambientsStringData.String()));
 }
 
-func displayAmbientsInterface(w http.ResponseWriter, ambientsList []types.AmbientInterface) {
+func displayAmbientsSalones(w http.ResponseWriter, ambientsList []types.SalonAmbient) {
     ambientsStringData := new(strings.Builder);
     json.NewEncoder(ambientsStringData).Encode(ambientsList);
     w.Write([]byte(ambientsStringData.String()));
@@ -79,16 +89,31 @@ func getCategoryList(ambientsList []types.Ambient, category string) []types.Ambi
     return newAmbientsList;
 }
 
-func getIdList(ambientsList []types.Ambient, id string, assignments []types.Assignment) []types.AmbientInterface {
+func getIdList(ambientsList []types.Ambient, id int, assignments []types.Assignment) []types.Ambient {
     var newAmbientsList []types.Ambient;
-    var classroomsList []types.AmbientInterface;
+    for _, ambient := range ambientsList {
+        if (ambient.AmbientID == id) {
+            newAmbientsList = append(newAmbientsList, ambient);
+        }
+    }
+    return newAmbientsList;
+}
 
+func getCategoryById(ambientsList []types.Ambient, id int) string {
+    for _, ambient := range ambientsList {
+        if (ambient.AmbientID == id) {
+            return ambient.Category;
+        }
+    }
+    return "";
+}
+
+func getIdListSalones(ambientsList []types.Ambient, id int, assignments []types.Assignment) []types.SalonAmbient {
+    var classroomsList []types.SalonAmbient;
     var sampleClassroom types.SalonAmbient;
 
     for _, ambient := range ambientsList {
         if (ambient.AmbientID == id) {
-            newAmbientsList = append(newAmbientsList, ambient);
-
             if (ambient.Category == "salones") {
                 sampleClassroom.Ambient = ambient;
                 sampleClassroom.Assignments = getAssociatedAssignmentGroups(id, assignments);
@@ -96,11 +121,11 @@ func getIdList(ambientsList []types.Ambient, id string, assignments []types.Assi
             }
         }
     }
-
     return classroomsList;
 }
 
-func getAssociatedAssignmentGroups(id string, assignments []types.Assignment) []types.AssignmentGroup {
+
+func getAssociatedAssignmentGroups(id int, assignments []types.Assignment) []types.AssignmentGroup {
     var displayGroups []types.AssignmentGroup;
 
     for _, assignment := range assignments {
@@ -113,7 +138,6 @@ func getAssociatedAssignmentGroups(id string, assignments []types.Assignment) []
 
     return displayGroups;
 }
-
 
 
 

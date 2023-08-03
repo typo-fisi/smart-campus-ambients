@@ -5,8 +5,9 @@ type AmbientInterface interface {
 }
 
 type Ambient struct{
+    Name string         `json:"name"`;
     Category string     `json:"category"`;
-    AmbientID string    `json:"ambient_id"`;
+    AmbientID int       `json:"ambient_id"`;
     Description string  `json:"description"`;
     Gallery []struct{
         Src string      `json:"src"`;
@@ -14,13 +15,13 @@ type Ambient struct{
     Tags []string       `json:"tags"`;
 }
 
+func (sa Ambient) GetAmbientId() int { return sa.AmbientID; }
+
 type SalonAmbient struct {
     Ambient;
     Assignments []AssignmentGroup;
 }
 
-func (sa SalonAmbient) GetAmbientId() string {
-    return sa.AmbientID;
-}
+func (sa SalonAmbient) GetAmbientId() int { return sa.AmbientID; }
 
 

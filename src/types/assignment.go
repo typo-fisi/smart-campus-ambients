@@ -1,7 +1,7 @@
 package types;
 
 type AssignmentGroup struct {
-    AmbientID string        `json:"ambient_id"`;
+    AmbientID int           `json:"ambient_id"`;
     Professor Professor     `json:"professor"`;
     Enrolled string         `json:"enrolled"`;
 
