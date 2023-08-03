@@ -15,6 +15,11 @@ import (
 func AmbientsHandler(w http.ResponseWriter, r *http.Request) {
     EnableCors(&w);
 
+    w.Header().Add("Content-Type", "application/json")
+    if ((*r).Method == "OPTIONS") {
+        w.WriteHeader(200);
+    }
+
     var assignments []types.Assignment;
     var ambientsList []types.Ambient;
 

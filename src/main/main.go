@@ -12,6 +12,14 @@ import (
 	"strings"
 )
 
+func main() {
+    http.HandleFunc("/", handlers.GeneralHandle);
+    http.HandleFunc("/api/assignments/", handlers.AssignmentsHandler);
+    http.HandleFunc("/api/ambients/", handlers.AmbientsHandler);
+    http.HandleFunc("/api/professors/", handlers.ProfessorHandler);
+    http.ListenAndServe(":4000", nil);
+}
+
 func main2() {
     holaFile, openErr := os.Open("/home/bauer/Projects/smartcampus-ambients-end/dump/assignments.json");
     if (openErr != nil) { log.Fatal(openErr); }
@@ -30,15 +38,3 @@ func main2() {
     fmt.Println(holastr);
 
 }
-
-
-
-
-func main() {
-    http.HandleFunc("/api/assignments/", handlers.AssignmentsHandler);
-    http.HandleFunc("/api/ambients/", handlers.AmbientsHandler);
-    http.HandleFunc("/api/professors/", handlers.ProfessorHandler);
-    http.ListenAndServe(":4000", nil);
-}
-
-
