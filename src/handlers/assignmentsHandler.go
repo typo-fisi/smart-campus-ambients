@@ -28,15 +28,17 @@ func AssignmentsHandler(w http.ResponseWriter, r *http.Request) {
     if (decodingErr != nil) { log.Fatal(decodingErr) }
 
     var pathID string;
+
     if (len(pathMembers) < 4) {
-        getAllAssignments(w, allAssignments);
+        writeAssignments(w, allAssignments);
     } else {
         pathID = pathMembers[3];
-        getSingleAssignment(w, allAssignments, pathID);
+        displayAssignments := getAssignmentsById(pathID, allAssignments);
+        writeAssignments(w, displayAssignments);
     }
 }
 
-func getAllAssignments(w http.ResponseWriter, assignments []types.Assignment) {
+func writeAssignments(w http.ResponseWriter, assignments []types.Assignment) {
     response := new(strings.Builder);
 
     encoder := json.NewEncoder(response);
@@ -46,16 +48,16 @@ func getAllAssignments(w http.ResponseWriter, assignments []types.Assignment) {
     w.Write([]byte(response.String()));
 }
 
-func getSingleAssignment(w http.ResponseWriter, assignments []types.Assignment, ID string) {
-    response := new(strings.Builder);
-    encoder := json.NewEncoder(response);
+func getAssignmentsById(ID string, assignments []types.Assignment) []types.Assignment {
+    var displayAssignments []types.Assignment;
 
     for _, assignment := range assignments {
         if (assignment.Code == ID) {
-            encoder.Encode(assignment);
-            w.Write([]byte(response.String()));
+            displayAssignments = append(displayAssignments, assignment);
         }
     }
+
+    return displayAssignments;
 }
 
 
