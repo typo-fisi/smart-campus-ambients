@@ -15,7 +15,9 @@ func separatePath(path string) []string {
 }
 
 func AssignmentsHandler(w http.ResponseWriter, r *http.Request) {
+    w.Header().Add("Content-Type", "application/json; charset=utf-8");
     EnableCors(&w);
+
     assignmentsFile, openErr := os.Open("/home/bauer/Projects/smartcampus-ambients-end/dump/assignments2.json");
     if (openErr != nil) { log.Fatal(openErr) }
 
