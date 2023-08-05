@@ -5,7 +5,7 @@
     "credits": "2.0",
     "groups": [
       {
-        "ambient_id": 301,
+        "ambient_id": 25,
         "professor": {
           "Name": "SALINAS AZAÑA, GILBERTO ANÍBAL",
           "Code": "089575"
@@ -27,7 +27,7 @@
         ]
       },
       {
-        "ambient_id": 218,
+        "ambient_id": 3,
         "professor": {
           "Name": "RUIZ RIVERA, MARIA ELENA",
           "Code": "0A0182"
@@ -49,7 +49,7 @@
         ]
       },
       {
-        "ambient_id": 124,
+        "ambient_id": 5,
         "professor": {
           "Name": "RUIZ RIVERA, MARIA ELENA",
           "Code": "0A0182"
@@ -71,7 +71,7 @@
         ]
       },
       {
-        "ambient_id": 228,
+        "ambient_id": 33,
         "professor": {
           "Name": "SALINAS AZAÑA, GILBERTO ANÍBAL",
           "Code": "089575"
@@ -93,7 +93,7 @@
         ]
       },
       {
-        "ambient_id": 208,
+        "ambient_id": 3,
         "professor": {
           "Name": "PETRLIK AZABACHE, IVAN CARLO",
           "Code": "0A9126"
@@ -122,7 +122,7 @@
     "credits": "2.0",
     "groups": [
       {
-        "ambient_id": 124,
+        "ambient_id": 3,
         "professor": {
           "Name": "CARRASCO ORÉ, NILO ELOY",
           "Code": "0A1234"
@@ -151,7 +151,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 208,
+        "ambient_id": 19,
         "professor": {
           "Name": "PERALTA ORTIZ, VILMA",
           "Code": "10665694"
@@ -173,7 +173,7 @@
         ]
       },
       {
-        "ambient_id": 112,
+        "ambient_id": 15,
         "professor": {
           "Name": "PERALTA ORTIZ, VILMA",
           "Code": "10665694"
@@ -195,7 +195,7 @@
         ]
       },
       {
-        "ambient_id": 201,
+        "ambient_id": 25,
         "professor": {
           "Name": "VICUÑA URETA, AMILCAR MAXIMO",
           "Code": "43323444"
@@ -217,7 +217,7 @@
         ]
       },
       {
-        "ambient_id": 328,
+        "ambient_id": 28,
         "professor": {
           "Name": "VICUÑA URETA, AMILCAR MAXIMO",
           "Code": "43323444"
@@ -246,7 +246,7 @@
     "credits": "2.0",
     "groups": [
       {
-        "ambient_id": 223,
+        "ambient_id": 15,
         "professor": {
           "Name": "-- --, --",
           "Code": "--"
@@ -268,7 +268,7 @@
         ]
       },
       {
-        "ambient_id": 201,
+        "ambient_id": 26,
         "professor": {
           "Name": "-- --, --",
           "Code": "--"
@@ -290,7 +290,7 @@
         ]
       },
       {
-        "ambient_id": 325,
+        "ambient_id": 24,
         "professor": {
           "Name": "SANTISTEBAN PAZOS, JOSE LUIS",
           "Code": "41570960"
@@ -312,7 +312,7 @@
         ]
       },
       {
-        "ambient_id": 223,
+        "ambient_id": 23,
         "professor": {
           "Name": "SANTISTEBAN PAZOS, JOSE LUIS",
           "Code": "41570960"
@@ -334,7 +334,7 @@
         ]
       },
       {
-        "ambient_id": 123,
+        "ambient_id": 13,
         "professor": {
           "Name": "FERNANDEZ ORTIZ, JAQUELIN",
           "Code": "46325393"
@@ -363,7 +363,7 @@
     "credits": "2.0",
     "groups": [
       {
-        "ambient_id": 211,
+        "ambient_id": 17,
         "professor": {
           "Name": "MENDOZA YAÑEZ, MARÍA DEL PILAR",
           "Code": "42097575"
@@ -385,7 +385,7 @@
         ]
       },
       {
-        "ambient_id": 201,
+        "ambient_id": 31,
         "professor": {
           "Name": "MENDOZA YAÑEZ, MARÍA DEL PILAR",
           "Code": "42097575"
@@ -407,7 +407,7 @@
         ]
       },
       {
-        "ambient_id": 124,
+        "ambient_id": 33,
         "professor": {
           "Name": "MENDOZA YAÑEZ, MARÍA DEL PILAR",
           "Code": "42097575"
@@ -429,7 +429,7 @@
         ]
       },
       {
-        "ambient_id": 211,
+        "ambient_id": 15,
         "professor": {
           "Name": "MENDOZA YAÑEZ, MARÍA DEL PILAR",
           "Code": "42097575"
@@ -458,7 +458,7 @@
     "credits": "4.0",
     "groups": [
       {
-        "ambient_id": 219,
+        "ambient_id": 10,
         "professor": {
           "Name": "BRAVO QUISPE, MARIBEL ROSA",
           "Code": "41652779"
@@ -480,7 +480,7 @@
         ]
       },
       {
-        "ambient_id": 223,
+        "ambient_id": 28,
         "professor": {
           "Name": "BRAVO QUISPE, MARIBEL ROSA",
           "Code": "41652779"
@@ -502,7 +502,7 @@
         ]
       },
       {
-        "ambient_id": 208,
+        "ambient_id": 4,
         "professor": {
           "Name": "ATOCHE ESPINOZA, VICENTE AGUSTIN",
           "Code": "06180110"
@@ -524,7 +524,7 @@
         ]
       },
       {
-        "ambient_id": 228,
+        "ambient_id": 7,
         "professor": {
           "Name": "ATOCHE ESPINOZA, VICENTE AGUSTIN",
           "Code": "06180110"
@@ -553,7 +553,7 @@
     "credits": "4.0",
     "groups": [
       {
-        "ambient_id": 223,
+        "ambient_id": 24,
         "professor": {
           "Name": "ARIAS RAMIREZ, ANGELA RENEE",
           "Code": "08458590"
@@ -575,7 +575,7 @@
         ]
       },
       {
-        "ambient_id": 328,
+        "ambient_id": 24,
         "professor": {
           "Name": "ARIAS RAMIREZ, ANGELA RENEE",
           "Code": "08458590"
@@ -597,7 +597,7 @@
         ]
       },
       {
-        "ambient_id": 217,
+        "ambient_id": 28,
         "professor": {
           "Name": "ARIAS RAMIREZ, ANGELA RENEE",
           "Code": "08458590"
@@ -619,7 +619,7 @@
         ]
       },
       {
-        "ambient_id": 208,
+        "ambient_id": 24,
         "professor": {
           "Name": "ARIAS RAMIREZ, ANGELA RENEE",
           "Code": "08458590"
@@ -648,7 +648,7 @@
     "credits": "4.0",
     "groups": [
       {
-        "ambient_id": 211,
+        "ambient_id": 8,
         "professor": {
           "Name": "ALEJANDRO AGUILAR, MIGUEL ÁNGEL ",
           "Code": "45296951"
@@ -670,7 +670,7 @@
         ]
       },
       {
-        "ambient_id": 317,
+        "ambient_id": 5,
         "professor": {
           "Name": "ALEJANDRO AGUILAR, MIGUEL ÁNGEL ",
           "Code": "45296951"
@@ -692,7 +692,7 @@
         ]
       },
       {
-        "ambient_id": 123,
+        "ambient_id": 33,
         "professor": {
           "Name": "REYES CABRERA, NEPTALI ANTONY",
           "Code": "42255984"
@@ -714,7 +714,7 @@
         ]
       },
       {
-        "ambient_id": 211,
+        "ambient_id": 32,
         "professor": {
           "Name": "REYES CABRERA, NEPTALI ANTONY",
           "Code": "42255984"
@@ -743,7 +743,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 211,
+        "ambient_id": 1,
         "professor": {
           "Name": "COLCA GARCIA, HEDDY LILIANA",
           "Code": "09620253"
@@ -765,7 +765,7 @@
         ]
       },
       {
-        "ambient_id": 219,
+        "ambient_id": 27,
         "professor": {
           "Name": "COLCA GARCIA, HEDDY LILIANA",
           "Code": "09620253"
@@ -787,7 +787,7 @@
         ]
       },
       {
-        "ambient_id": 328,
+        "ambient_id": 10,
         "professor": {
           "Name": "-- --, --",
           "Code": "--"
@@ -809,7 +809,7 @@
         ]
       },
       {
-        "ambient_id": 208,
+        "ambient_id": 1,
         "professor": {
           "Name": "-- --, --",
           "Code": "--"
@@ -831,7 +831,7 @@
         ]
       },
       {
-        "ambient_id": 211,
+        "ambient_id": 11,
         "professor": {
           "Name": "INGA ALVA, ALEXANDER EDUARDO",
           "Code": "07493618"
@@ -860,7 +860,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 230,
+        "ambient_id": 19,
         "professor": {
           "Name": "GARCIA LIZA, ANA MARIA",
           "Code": "028479"
@@ -889,7 +889,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 111,
+        "ambient_id": 18,
         "professor": {
           "Name": "GUZMÁN MONTEZA, YUDI LUCERO",
           "Code": "0A5307"
@@ -918,7 +918,7 @@
     "credits": "2.0",
     "groups": [
       {
-        "ambient_id": 230,
+        "ambient_id": 5,
         "professor": {
           "Name": "COLCA GARCIA, HEDDY LILIANA",
           "Code": "09620253"
@@ -947,7 +947,7 @@
     "credits": "4.0",
     "groups": [
       {
-        "ambient_id": 115,
+        "ambient_id": 19,
         "professor": {
           "Name": "BRAVO QUISPE, MARIBEL ROSA",
           "Code": "41652779"
@@ -976,7 +976,7 @@
     "credits": "4.0",
     "groups": [
       {
-        "ambient_id": 228,
+        "ambient_id": 31,
         "professor": {
           "Name": "TESILLO QUISPE, MABEL ERLINDA",
           "Code": "0A2086"
@@ -1005,7 +1005,7 @@
     "credits": "4.0",
     "groups": [
       {
-        "ambient_id": 230,
+        "ambient_id": 14,
         "professor": {
           "Name": "GÓMEZ GALVEZ, SUSANA TERESA",
           "Code": "08148546"
@@ -1034,7 +1034,7 @@
     "credits": "2.0",
     "groups": [
       {
-        "ambient_id": 218,
+        "ambient_id": 30,
         "professor": {
           "Name": "-- --, --",
           "Code": "--"
@@ -1063,7 +1063,7 @@
     "credits": "4.0",
     "groups": [
       {
-        "ambient_id": 301,
+        "ambient_id": 10,
         "professor": {
           "Name": "TRUJILLO TREJO, JOHNLEDGARD",
           "Code": "09571E"
@@ -1085,7 +1085,7 @@
         ]
       },
       {
-        "ambient_id": 230,
+        "ambient_id": 14,
         "professor": {
           "Name": "GUERRA GRADOS, LUIS ANGEL",
           "Code": "0A0419"
@@ -1114,7 +1114,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 228,
+        "ambient_id": 22,
         "professor": {
           "Name": "GIRALDO LAGUNA, SUIBERTO ORLANDO",
           "Code": "029351"
@@ -1136,7 +1136,7 @@
         ]
       },
       {
-        "ambient_id": 328,
+        "ambient_id": 11,
         "professor": {
           "Name": "HUAROTO SUMARI, JUSTA CARIDAD",
           "Code": "033936"
@@ -1158,7 +1158,7 @@
         ]
       },
       {
-        "ambient_id": 219,
+        "ambient_id": 5,
         "professor": {
           "Name": "RAMON QUISPE, GREGORIA NATIVIDAD",
           "Code": "057134"
@@ -1187,7 +1187,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 208,
+        "ambient_id": 26,
         "professor": {
           "Name": "MEJÍA SANTILLÁN, MIRIAN ESTHER",
           "Code": "0A0755"
@@ -1209,7 +1209,7 @@
         ]
       },
       {
-        "ambient_id": 123,
+        "ambient_id": 4,
         "professor": {
           "Name": "MORI ESCOBAR, FANNY ESMERALDA",
           "Code": "0A2051"
@@ -1231,7 +1231,7 @@
         ]
       },
       {
-        "ambient_id": 124,
+        "ambient_id": 13,
         "professor": {
           "Name": "PAREJA QUISPE, DAVID",
           "Code": "0A7587"
@@ -1260,7 +1260,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 323,
+        "ambient_id": 26,
         "professor": {
           "Name": "CHUMACERO CALLE, JOSÉ ANTONIO",
           "Code": "0A1565"
@@ -1282,7 +1282,7 @@
         ]
       },
       {
-        "ambient_id": 321,
+        "ambient_id": 5,
         "professor": {
           "Name": "REÁTEGUI SÁNCHEZ DE SÁNCHEZ, LLEYNI",
           "Code": "057622"
@@ -1304,7 +1304,7 @@
         ]
       },
       {
-        "ambient_id": 301,
+        "ambient_id": 12,
         "professor": {
           "Name": "CONTRERAS PAZ, CARLOS BENJAMÍN",
           "Code": "01785A"
@@ -1327,7 +1327,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 113,
+        "ambient_id": 4,
         "professor": {
           "Name": "ZAVALETA CAMPOS, JORGE LUIS",
           "Code": "0A1609"
@@ -1349,7 +1349,7 @@
         ]
       },
       {
-        "ambient_id": 112,
+        "ambient_id": 13,
         "professor": {
           "Name": "ROMERO NAUPARI, PABLO JESUS",
           "Code": "08803A"
@@ -1371,7 +1371,7 @@
         ]
       },
       {
-        "ambient_id": 223,
+        "ambient_id": 32,
         "professor": {
           "Name": "ARREDONDO CASTILLO, GUSTAVO",
           "Code": "0A1982"
@@ -1393,7 +1393,7 @@
         ]
       },
       {
-        "ambient_id": 208,
+        "ambient_id": 9,
         "professor": {
           "Name": "LEZAMA GONZALES, PEDRO MARTÍN",
           "Code": "0A9124"
@@ -1416,7 +1416,7 @@
     "credits": "4.0",
     "groups": [
       {
-        "ambient_id": 223,
+        "ambient_id": 26,
         "professor": {
           "Name": "TERREROS NAVARRO, HELLEN GLORIA",
           "Code": "40667934"
@@ -1438,7 +1438,7 @@
         ]
       },
       {
-        "ambient_id": 230,
+        "ambient_id": 25,
         "professor": {
           "Name": "ARBAÑIL RIVADENEIRA, RUBEN ORLANDO",
           "Code": "0A0283"
@@ -1460,7 +1460,7 @@
         ]
       },
       {
-        "ambient_id": 117,
+        "ambient_id": 25,
         "professor": {
           "Name": "CARRILLO DIAZ, LUIS ENRIQUE",
           "Code": "091006"
@@ -1489,7 +1489,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 211,
+        "ambient_id": 7,
         "professor": {
           "Name": "CHÁVEZ HERRERA , CARLOS ERNESTO",
           "Code": "0A1871"
@@ -1511,7 +1511,7 @@
         ]
       },
       {
-        "ambient_id": 301,
+        "ambient_id": 31,
         "professor": {
           "Name": "ANGULO CALDERÓN, CÉSAR AUGUSTO",
           "Code": "0A1612"
@@ -1533,7 +1533,7 @@
         ]
       },
       {
-        "ambient_id": 322,
+        "ambient_id": 6,
         "professor": {
           "Name": "SANTISTEBAN PAZOS, JOSE LUIS",
           "Code": "41570960"
@@ -1562,7 +1562,7 @@
     "credits": "4.0",
     "groups": [
       {
-        "ambient_id": 301,
+        "ambient_id": 2,
         "professor": {
           "Name": "ZAVALETA CAMPOS, JORGE LUIS",
           "Code": "0A1609"
@@ -1591,7 +1591,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 201,
+        "ambient_id": 18,
         "professor": {
           "Name": "REÁTEGUI SÁNCHEZ DE SÁNCHEZ, LLEYNI",
           "Code": "057622"
@@ -1620,7 +1620,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 208,
+        "ambient_id": 9,
         "professor": {
           "Name": "BAYONA ORÉ, LUZ SUSSY",
           "Code": "0A4524"
@@ -1649,7 +1649,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 230,
+        "ambient_id": 34,
         "professor": {
           "Name": "QUINTO PAZCE, DANIEL",
           "Code": "055867"
@@ -1678,7 +1678,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 230,
+        "ambient_id": 6,
         "professor": {
           "Name": "MIRANDA ROBLES, MARY YRIS",
           "Code": "044814"
@@ -1707,7 +1707,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 323,
+        "ambient_id": 19,
         "professor": {
           "Name": "INGA LÓPEZ, WILDER ALEX",
           "Code": "20037777"
@@ -1736,7 +1736,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 230,
+        "ambient_id": 13,
         "professor": {
           "Name": "CONTRERAS FLORES, WALTER PEDRO",
           "Code": "017779"
@@ -1758,7 +1758,7 @@
         ]
       },
       {
-        "ambient_id": 218,
+        "ambient_id": 22,
         "professor": {
           "Name": "FERMIN PEREZ, FELIX ARMANDO",
           "Code": "099589"
@@ -1787,7 +1787,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 230,
+        "ambient_id": 11,
         "professor": {
           "Name": "PRUDENCIO VIDAL, JAVIER ANTONIO",
           "Code": "0A7565"
@@ -1809,7 +1809,7 @@
         ]
       },
       {
-        "ambient_id": 228,
+        "ambient_id": 26,
         "professor": {
           "Name": "PRUDENCIO VIDAL, JAVIER ANTONIO",
           "Code": "0A7565"
@@ -1831,7 +1831,7 @@
         ]
       },
       {
-        "ambient_id": 201,
+        "ambient_id": 4,
         "professor": {
           "Name": "GUERRA GRADOS, LUIS ANGEL",
           "Code": "0A0419"
@@ -1853,7 +1853,7 @@
         ]
       },
       {
-        "ambient_id": 201,
+        "ambient_id": 16,
         "professor": {
           "Name": "TICONA ZEGARRA, EDSON ARIEL",
           "Code": "45642296"
@@ -1882,7 +1882,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 230,
+        "ambient_id": 28,
         "professor": {
           "Name": "AGUILAR ALONSO, IGOR JOVINO",
           "Code": "0A5306"
@@ -1904,7 +1904,7 @@
         ]
       },
       {
-        "ambient_id": 201,
+        "ambient_id": 22,
         "professor": {
           "Name": "GONZÁLES SUÁREZ, JUAN CARLOS",
           "Code": "030228"
@@ -1933,7 +1933,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 201,
+        "ambient_id": 29,
         "professor": {
           "Name": "BARTRA MORE, ARTURO ALEJANDRO",
           "Code": "0A1877"
@@ -1955,7 +1955,7 @@
         ]
       },
       {
-        "ambient_id": 124,
+        "ambient_id": 11,
         "professor": {
           "Name": "ALARCÓN LOAYZA, LUIS ALBERTO",
           "Code": "091081"
@@ -1977,7 +1977,7 @@
         ]
       },
       {
-        "ambient_id": 301,
+        "ambient_id": 8,
         "professor": {
           "Name": "LEZAMA GONZALES, PEDRO MARTÍN",
           "Code": "0A9124"
@@ -2000,7 +2000,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 223,
+        "ambient_id": 24,
         "professor": {
           "Name": "AVENDAÑO QUIROZ, JOHNNY ROBERTO",
           "Code": "097543"
@@ -2022,7 +2022,7 @@
         ]
       },
       {
-        "ambient_id": 201,
+        "ambient_id": 33,
         "professor": {
           "Name": "AVENDAÑO QUIROZ, JOHNNY ROBERTO",
           "Code": "097543"
@@ -2051,7 +2051,7 @@
     "credits": "4.0",
     "groups": [
       {
-        "ambient_id": 219,
+        "ambient_id": 25,
         "professor": {
           "Name": "PRÓ CONCEPCIÓN, LUZMILA ELISA",
           "Code": "055123"
@@ -2073,7 +2073,7 @@
         ]
       },
       {
-        "ambient_id": 208,
+        "ambient_id": 10,
         "professor": {
           "Name": "ARREDONDO CASTILLO, GUSTAVO",
           "Code": "0A1982"
@@ -2095,7 +2095,7 @@
         ]
       },
       {
-        "ambient_id": 208,
+        "ambient_id": 30,
         "professor": {
           "Name": "CORAL YGNACIO, MARCO ANTONIO",
           "Code": "0A1232"
@@ -2124,7 +2124,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 208,
+        "ambient_id": 11,
         "professor": {
           "Name": "SAN JUAN LEZAMA, HERMINIO GRIMALDO",
           "Code": "09532A"
@@ -2146,7 +2146,7 @@
         ]
       },
       {
-        "ambient_id": 208,
+        "ambient_id": 21,
         "professor": {
           "Name": "CHUMACERO CALLE, JOSÉ ANTONIO",
           "Code": "0A1565"
@@ -2168,7 +2168,7 @@
         ]
       },
       {
-        "ambient_id": 208,
+        "ambient_id": 10,
         "professor": {
           "Name": "CARDENAS YACTAYO, URCISINIO VICENTE",
           "Code": "012351"
@@ -2197,7 +2197,7 @@
     "credits": "4.0",
     "groups": [
       {
-        "ambient_id": 301,
+        "ambient_id": 9,
         "professor": {
           "Name": "RODRÍGUEZ RODRÍGUEZ , CIRO",
           "Code": "0A5230"
@@ -2219,7 +2219,7 @@
         ]
       },
       {
-        "ambient_id": 230,
+        "ambient_id": 8,
         "professor": {
           "Name": "CHÁVEZ HERRERA , CARLOS ERNESTO",
           "Code": "0A1871"
@@ -2248,7 +2248,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 228,
+        "ambient_id": 26,
         "professor": {
           "Name": "HUAPAYA CHUMPITAZ, MARIO AGUSTÍN",
           "Code": "0A5291"
@@ -2277,7 +2277,7 @@
     "credits": "4.0",
     "groups": [
       {
-        "ambient_id": 208,
+        "ambient_id": 11,
         "professor": {
           "Name": "MURAKAMI DE LA CRUZ , SUMIKO ELIZABETH",
           "Code": "0A1876"
@@ -2306,7 +2306,7 @@
     "credits": "4.0",
     "groups": [
       {
-        "ambient_id": 223,
+        "ambient_id": 28,
         "professor": {
           "Name": "MENÉNDEZ MUERAS, ROSA",
           "Code": "0A4525"
@@ -2335,7 +2335,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 301,
+        "ambient_id": 2,
         "professor": {
           "Name": "BAYONA ORÉ, LUZ SUSSY",
           "Code": "0A4524"
@@ -2357,7 +2357,7 @@
         ]
       },
       {
-        "ambient_id": 322,
+        "ambient_id": 31,
         "professor": {
           "Name": "ALCÁNTARA LOAYZA, CÉSAR AUGUSTO",
           "Code": "09831E"
@@ -2386,7 +2386,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 223,
+        "ambient_id": 17,
         "professor": {
           "Name": "WONG PORTILLO , LENIS ROSSI",
           "Code": "0A1875"
@@ -2408,7 +2408,7 @@
         ]
       },
       {
-        "ambient_id": 320,
+        "ambient_id": 30,
         "professor": {
           "Name": "WONG PORTILLO , LENIS ROSSI",
           "Code": "0A1875"
@@ -2437,7 +2437,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 111,
+        "ambient_id": 28,
         "professor": {
           "Name": "ESPINOZA DOMINGUEZ, ROBERT ELIAS",
           "Code": "094315"
@@ -2466,7 +2466,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 320,
+        "ambient_id": 4,
         "professor": {
           "Name": "PARIONA QUISPE, JAIME RUBEN",
           "Code": "051934"
@@ -2495,7 +2495,7 @@
     "credits": "4.0",
     "groups": [
       {
-        "ambient_id": 228,
+        "ambient_id": 24,
         "professor": {
           "Name": "CORDERO SÁNCHEZ, HUGO RAFAEL",
           "Code": "0A1874"
@@ -2517,7 +2517,7 @@
         ]
       },
       {
-        "ambient_id": 211,
+        "ambient_id": 27,
         "professor": {
           "Name": "MENÉNDEZ MUERAS, ROSA",
           "Code": "0A4525"
@@ -2546,7 +2546,7 @@
     "credits": "4.0",
     "groups": [
       {
-        "ambient_id": 201,
+        "ambient_id": 31,
         "professor": {
           "Name": "GAMARRA MORENO, JUAN",
           "Code": "0A2067"
@@ -2568,7 +2568,7 @@
         ]
       },
       {
-        "ambient_id": 324,
+        "ambient_id": 4,
         "professor": {
           "Name": "ARREDONDO CASTILLO, GUSTAVO",
           "Code": "0A1982"
@@ -2597,7 +2597,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 223,
+        "ambient_id": 32,
         "professor": {
           "Name": "REYES HUAMÁN, ANITA MARLENE",
           "Code": "10399394"
@@ -2619,7 +2619,7 @@
         ]
       },
       {
-        "ambient_id": 301,
+        "ambient_id": 16,
         "professor": {
           "Name": "REYES HUAMÁN, ANITA MARLENE",
           "Code": "10399394"
@@ -2648,7 +2648,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 124,
+        "ambient_id": 21,
         "professor": {
           "Name": "BARTRA MORE, ARTURO ALEJANDRO",
           "Code": "0A1877"
@@ -2670,7 +2670,7 @@
         ]
       },
       {
-        "ambient_id": 114,
+        "ambient_id": 24,
         "professor": {
           "Name": "CÁNEPA PÉREZ, CARLOS ALBERTO",
           "Code": "011797"
@@ -2699,7 +2699,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 223,
+        "ambient_id": 27,
         "professor": {
           "Name": "GAMARRA MORENO, JUAN",
           "Code": "0A2067"
@@ -2721,7 +2721,7 @@
         ]
       },
       {
-        "ambient_id": 218,
+        "ambient_id": 12,
         "professor": {
           "Name": "GAMARRA MORENO, JUAN",
           "Code": "0A2067"
@@ -2756,7 +2756,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 223,
+        "ambient_id": 6,
         "professor": {
           "Name": "BARTRA MORE, ARTURO ALEJANDRO",
           "Code": "0A1877"
@@ -2778,7 +2778,7 @@
         ]
       },
       {
-        "ambient_id": 123,
+        "ambient_id": 11,
         "professor": {
           "Name": "BARTRA MORE, ARTURO ALEJANDRO",
           "Code": "0A1877"
@@ -2807,7 +2807,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 315,
+        "ambient_id": 27,
         "professor": {
           "Name": "UGAZ CACHAY , WINSTON IGNACIO",
           "Code": "0A1981"
@@ -2829,7 +2829,7 @@
         ]
       },
       {
-        "ambient_id": 228,
+        "ambient_id": 31,
         "professor": {
           "Name": "UGAZ CACHAY , WINSTON IGNACIO",
           "Code": "0A1981"
@@ -2858,7 +2858,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 301,
+        "ambient_id": 12,
         "professor": {
           "Name": "FERMIN PEREZ, FELIX ARMANDO",
           "Code": "099589"
@@ -2887,7 +2887,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 328,
+        "ambient_id": 34,
         "professor": {
           "Name": "CANCHO RODRÍGUEZ, ERNESTO DAVID",
           "Code": "0A7624"
@@ -2916,7 +2916,7 @@
     "credits": "2.0",
     "groups": [
       {
-        "ambient_id": 201,
+        "ambient_id": 24,
         "professor": {
           "Name": "LA SERNA PALOMINO, NORA BERTHA",
           "Code": "088005"
@@ -2938,7 +2938,7 @@
         ]
       },
       {
-        "ambient_id": 324,
+        "ambient_id": 31,
         "professor": {
           "Name": "LEÓN FERNÁNDEZ, CAYO VÍCTOR",
           "Code": "037605"
@@ -2960,7 +2960,7 @@
         ]
       },
       {
-        "ambient_id": 208,
+        "ambient_id": 30,
         "professor": {
           "Name": "PRÓ CONCEPCIÓN, LUZMILA ELISA",
           "Code": "055123"
@@ -2982,7 +2982,7 @@
         ]
       },
       {
-        "ambient_id": 219,
+        "ambient_id": 21,
         "professor": {
           "Name": "LUZA MONTERO, CÉSAR",
           "Code": "098329"
@@ -3011,7 +3011,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 217,
+        "ambient_id": 24,
         "professor": {
           "Name": "CALDERON VILCA, HUGO DAVID",
           "Code": "0A2417"
@@ -3040,7 +3040,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 301,
+        "ambient_id": 3,
         "professor": {
           "Name": "BUSTAMANTE OLIVERA, VÍCTORHUGO",
           "Code": "095702"
@@ -3062,7 +3062,7 @@
         ]
       },
       {
-        "ambient_id": 201,
+        "ambient_id": 16,
         "professor": {
           "Name": "BUSTAMANTE OLIVERA, VÍCTORHUGO",
           "Code": "095702"
@@ -3091,7 +3091,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 328,
+        "ambient_id": 27,
         "professor": {
           "Name": "COLLANTES INGA, ZOILA MERCEDES",
           "Code": "40335157"
@@ -3120,7 +3120,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 211,
+        "ambient_id": 4,
         "professor": {
           "Name": "CORDERO SÁNCHEZ, HUGO RAFAEL",
           "Code": "0A1874"
@@ -3149,7 +3149,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 228,
+        "ambient_id": 25,
         "professor": {
           "Name": "INGA LÓPEZ, WILDER ALEX",
           "Code": "20037777"
@@ -3178,7 +3178,7 @@
     "credits": "2.0",
     "groups": [
       {
-        "ambient_id": 123,
+        "ambient_id": 5,
         "professor": {
           "Name": "RODRÍGUEZ RODRÍGUEZ , CIRO",
           "Code": "0A5230"
@@ -3200,7 +3200,7 @@
         ]
       },
       {
-        "ambient_id": 123,
+        "ambient_id": 4,
         "professor": {
           "Name": "CALDERON VILCA, HUGO DAVID",
           "Code": "0A2417"
@@ -3222,7 +3222,7 @@
         ]
       },
       {
-        "ambient_id": 321,
+        "ambient_id": 23,
         "professor": {
           "Name": "SANTISTEBAN PAZOS, JOSE LUIS",
           "Code": "41570960"
@@ -3251,7 +3251,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 223,
+        "ambient_id": 5,
         "professor": {
           "Name": "-- --, --",
           "Code": "--"
@@ -3280,7 +3280,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 211,
+        "ambient_id": 11,
         "professor": {
           "Name": "MACHADO VICENTE, JOEL FERNANDO",
           "Code": "0A1873"
@@ -3309,7 +3309,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 208,
+        "ambient_id": 22,
         "professor": {
           "Name": "INGA LÓPEZ, WILDER ALEX",
           "Code": "20037777"
@@ -3338,7 +3338,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 301,
+        "ambient_id": 6,
         "professor": {
           "Name": "MACHADO VICENTE, JOEL FERNANDO",
           "Code": "0A1873"
@@ -3367,7 +3367,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 328,
+        "ambient_id": 2,
         "professor": {
           "Name": "VALCARCEL ASCENCIOS, SERGIO PAULO",
           "Code": "0A4523"
@@ -3396,7 +3396,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 208,
+        "ambient_id": 21,
         "professor": {
           "Name": "PETRLIK AZABACHE, IVAN CARLO",
           "Code": "0A9126"
@@ -3418,7 +3418,7 @@
         ]
       },
       {
-        "ambient_id": 217,
+        "ambient_id": 2,
         "professor": {
           "Name": "TICONA ZEGARRA, EDSON ARIEL",
           "Code": "45642296"
@@ -3447,7 +3447,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 301,
+        "ambient_id": 32,
         "professor": {
           "Name": "CALDERON VILCA, HUGO DAVID",
           "Code": "0A2417"
@@ -3469,7 +3469,7 @@
         ]
       },
       {
-        "ambient_id": 223,
+        "ambient_id": 4,
         "professor": {
           "Name": "CALDERON VILCA, HUGO DAVID",
           "Code": "0A2417"
@@ -3498,7 +3498,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 328,
+        "ambient_id": 29,
         "professor": {
           "Name": "LEZAMA GONZALES, PEDRO MARTÍN",
           "Code": "0A9124"
@@ -3520,7 +3520,7 @@
         ]
       },
       {
-        "ambient_id": 123,
+        "ambient_id": 30,
         "professor": {
           "Name": "LEZAMA GONZALES, PEDRO MARTÍN",
           "Code": "0A9124"
@@ -3549,7 +3549,7 @@
     "credits": "2.0",
     "groups": [
       {
-        "ambient_id": 223,
+        "ambient_id": 15,
         "professor": {
           "Name": "WONG PORTILLO , LENIS ROSSI",
           "Code": "0A1875"
@@ -3571,7 +3571,7 @@
         ]
       },
       {
-        "ambient_id": 230,
+        "ambient_id": 33,
         "professor": {
           "Name": "LA SERNA PALOMINO, NORA BERTHA",
           "Code": "088005"
@@ -3593,7 +3593,7 @@
         ]
       },
       {
-        "ambient_id": 114,
+        "ambient_id": 10,
         "professor": {
           "Name": "HERRERA QUISPE, JOSÉ ALFREDO",
           "Code": "0A6226"
@@ -3622,7 +3622,7 @@
     "credits": "4.0",
     "groups": [
       {
-        "ambient_id": 123,
+        "ambient_id": 28,
         "professor": {
           "Name": "MURAKAMI DE LA CRUZ , SUMIKO ELIZABETH",
           "Code": "0A1876"
@@ -3651,7 +3651,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 328,
+        "ambient_id": 16,
         "professor": {
           "Name": "LIMACHI CARTOLIN, YURY",
           "Code": "46375392"
@@ -3680,7 +3680,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 328,
+        "ambient_id": 29,
         "professor": {
           "Name": "TICONA ZEGARRA, EDSON ARIEL",
           "Code": "45642296"
@@ -3709,7 +3709,7 @@
     "credits": "3.0",
     "groups": [
       {
-        "ambient_id": 217,
+        "ambient_id": 18,
         "professor": {
           "Name": "MACHADO VICENTE, JOEL FERNANDO",
           "Code": "0A1873"

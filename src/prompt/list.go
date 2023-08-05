@@ -3,6 +3,6 @@ package prompt
 type ListElem struct {
     Name string         `json:"name"`;
     Description string  `json:"description"`;
-    ID int              `json:"ambient_id"`;
+    ID int              `json:"id"`;
 }
 
