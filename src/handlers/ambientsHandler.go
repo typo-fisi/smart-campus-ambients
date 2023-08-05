@@ -24,13 +24,13 @@ func AmbientsHandler(w http.ResponseWriter, r *http.Request) {
     var assignments []types.Assignment;
     var ambientsList []types.Ambient;
 
-    assignmentsFile, openErr := os.Open("/home/bauer/Projects/smartcampus-ambients-end/dump/assignments2.json");
+    assignmentsFile, openErr := os.Open("./dump/assignments.json");
     if (openErr != nil) { log.Fatal(openErr); }
 
     decode_assignmentsErr := json.NewDecoder(assignmentsFile).Decode(&assignments);
     if (decode_assignmentsErr != nil) { log.Fatal(decode_assignmentsErr); }
 
-    ambientsFile, openErr := os.Open("/home/bauer/Projects/smartcampus-ambients-end/dump/ambients.json");
+    ambientsFile, openErr := os.Open("./dump/ambients.json");
     if (openErr != nil) { log.Fatal(openErr); }
 
     decode_ambientsErr := json.NewDecoder(ambientsFile).Decode(&ambientsList);

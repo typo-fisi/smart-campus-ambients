@@ -16,12 +16,16 @@ func main() {
     http.HandleFunc("/", handlers.GeneralHandle);
     http.HandleFunc("/api/assignments/", handlers.AssignmentsHandler);
     http.HandleFunc("/api/ambients/", handlers.AmbientsHandler);
-    http.HandleFunc("/api/professors/", handlers.ProfessorHandler);
+    http.HandleFunc("/api/helper", handlers.Helper);
     http.ListenAndServe(":4000", nil);
 }
 
 func main2() {
-    holaFile, openErr := os.Open("/home/bauer/Projects/smartcampus-ambients-end/dump/assignments.json");
+    var dumpfilename string;
+
+    //dumpfilenamme = {name}
+
+    holaFile, openErr := os.Open("./dump/" + dumpfilename);
     if (openErr != nil) { log.Fatal(openErr); }
 
     var holaSi []types.Assignment
