@@ -1,9 +1,12 @@
 package handlers
 
 import (
+	openaiClient "ambients-end/src/openai/client"
+	openaiTypes "ambients-end/src/openai/types"
 	"ambients-end/src/prompt"
 	"ambients-end/src/types"
 	"encoding/json"
+	"fmt"
 	"log"
 	"net/http"
 	"os"
@@ -18,7 +21,45 @@ func Helper(w http.ResponseWriter, r *http.Request) {
         w.WriteHeader(200);
     }
 
+    var incomingBody types.IncomingMsg;
+    incomingErr := json.NewDecoder((*r).Body).Decode(&incomingBody);
 
+    if (incomingErr != nil) {
+        w.WriteHeader(500);
+        return;
+    }
+}
+
+func inferCategory(income types.IncomingMsg) (string, error) {
+    var promptStr string;
+
+    sample1, sample1Err := os.ReadFile("./dump/sample1");
+    if (sample1Err != nil){ log.Fatal(sample1Err); }
+
+    promptStr += string(sample1) + income.Context;
+
+    message := openaiTypes.Message{
+        Role: "system",
+        Content: promptStr,
+    }
+
+    textazo1 := openaiTypes.Request{
+        Model: "gpt-3.5-turbo",
+        Messages: []openaiTypes.Message{
+            message,
+            {
+                Role: "user",
+                Content: income.Prompt,
+            },
+        },
+    }
+
+    resp1, _ := openaiClient.GetResponse(textazo1);
+    fmt.Println(resp1);
+    return "", nil;
+}
+
+func inferId(income types.IncomingMsg) {
     listFile, openErr := os.Open("./dump/ambients.json");
     if (openErr != nil) { log.Fatal(openErr); }
 
@@ -38,10 +79,9 @@ func Helper(w http.ResponseWriter, r *http.Request) {
         list = append(list, sample);
     }
 
-    resp := new(strings.Builder);
+    respStr := new(strings.Builder);
 
-    respGenErr := json.NewEncoder(resp).Encode(list);
+    respGenErr := json.NewEncoder(respStr).Encode(list);
     if (respGenErr != nil) { log.Fatal(respGenErr); }
-
-    w.Write([]byte(resp.String()));
 }
+
