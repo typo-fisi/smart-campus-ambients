@@ -11,7 +11,7 @@ import (
 
 func newOpenAIReq(body types.Request) *http.Request {
     openAiPath := "https://api.openai.com/v1/chat/completions";
-    openAiKey := "<YOUR-API-KEY>";
+    openAiKey := "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";
 
     bodyStr := new(strings.Builder);
     encodeErr := json.NewEncoder(bodyStr).Encode(body);
