@@ -1,4 +1,4 @@
-package types
+package types;
 
 type AmbientInterface interface {
     GetAmbientId() string;

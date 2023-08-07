@@ -6,5 +6,7 @@ func GeneralHandle(w http.ResponseWriter, r *http.Request) {
     if ((*r).Method == "OPTIONS") {
         EnableCors(&w);
         w.WriteHeader(200);
+    } else {
+        w.Write([]byte("hola " + r.RemoteAddr));
     }
 }
