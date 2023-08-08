@@ -23,6 +23,7 @@ Currently, the functional endpoints work as follows:
 1. `GET /api/assignments` → `Assignment[]`:
 
 <details>
+
 ```json
 [
   {
@@ -45,11 +46,13 @@ Currently, the functional endpoints work as follows:
   ...
 ]
 ```
+
 </details>
 
 2. `GET /api/assignments/{ID}` → `Assignment`:
 
 <details>
+
 ```json
 [
   {
@@ -71,12 +74,14 @@ Currently, the functional endpoints work as follows:
   }
 ]
 ```
+
 </details>
 
 
 3. `GET /api/ambients` → `Ambient[]`:
 
 <details>
+
 ```json
 [
   {
@@ -90,11 +95,13 @@ Currently, the functional endpoints work as follows:
   ...
 ]
 ```
+
 </details>
 
 4. `GET /api/ambients/category/{category}` → `Ambient[]` (of the same category):
 
 <details>
+
 ```json
 [
   {
@@ -108,6 +115,7 @@ Currently, the functional endpoints work as follows:
   ...
 ]
 ```
+
 </details>
 
 5. `GET /api/ambients/ambient_id?id={id}` → `Ambient`:
